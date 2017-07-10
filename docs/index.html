@@ -1,0 +1,1517 @@
+<!DOCTYPE HTML>
+
+    <head>      
+		<meta charset="utf-8">
+		<title>OneUp - One Page Parallax Retina WordPress Theme Documentation - pixelentity</title>
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/syntax.css" />
+		<link rel="stylesheet" href="css/docs_style.css" />
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/jquery.pixelentity.hotspot.js"></script>
+		<script type="text/javascript" src="js/docs.js"></script>
+	</head>
+	
+    <body>
+	
+		<!--header section-->
+		<div class="header">
+			
+			<!--logo-->
+			<a href="http://pixelentity.com" class="logo"><img src="img/logo.png" alt="logo" /></a>
+			
+			<!--introduction text-->
+			<div class="intro">				
+				<p>Hi there and thank you for buying a premium digital product from Pixelentity. In order to get the most out of your purchase, please make sure to carefully read all of the information contained in this page. Use the table of contents at the top of this page to jump to a relevant section.</p>
+			</div>
+			<!--end introduction text-->
+			
+			<span class="title">OneUp - One Page Parallax Retina WordPress Theme</span>
+			
+		</div>
+		
+		<!--end header section-->
+		<div class="toc" id="toc">
+			<h1>TABLE OF CONTENTS</h1>
+			<!-- toc -->
+<a class="section" href="#sec1_0"><span>1</span> Getting Started</a><a class="subsection" href="#sec1_1"><span>1.1</span>Download Package Contents</a><a class="subsection" href="#sec1_2"><span>1.2</span>Installing Your Theme</a><a class="subsection" href="#sec1_3"><span>1.3</span>Theme Installation Errors</a><a class="section" href="#sec2_0"><span>2</span> Theme Setup</a><a class="subsection" href="#sec2_1"><span>2.1</span>Importing Demo Content</a><a class="section" href="#sec3_0"><span>3</span> Theme Structure - How It Works</a><a class="section" href="#sec4_0"><span>4</span> Retina Support</a><a class="section" href="#sec5_0"><span>5</span> Creating Posts</a><a class="subsection" href="#sec5_1"><span>5.1</span>Custom Metaboxes</a><a class="subsection" href="#sec5_2"><span>5.2</span>Post Format: Standard</a><a class="subsection" href="#sec5_3"><span>5.3</span>Post Format: Video</a><a class="subsection" href="#sec5_4"><span>5.4</span>Post Format: Gallery</a><a class="section" href="#sec6_0"><span>6</span> Creating a Gallery</a><a class="subsection" href="#sec6_1"><span>6.1</span>Direct Upload Gallery</a><a class="subsection" href="#sec6_2"><span>6.2</span>Quick Browse Mode</a><a class="subsection" href="#sec6_3"><span>6.3</span>Media Tags</a><a class="subsection" href="#sec6_4"><span>6.4</span>Media Tags Gallery</a><a class="subsection" href="#sec6_5"><span>6.5</span>Simple Gallery Captions, Links, Videos</a><a class="section" href="#sec7_0"><span>7</span> Creating a Video</a><a class="section" href="#sec8_0"><span>8</span> Creating a Project</a><a class="subsection" href="#sec8_1"><span>8.1</span>Project Format: Standard</a><a class="subsection" href="#sec8_2"><span>8.2</span>Project Format: Video</a><a class="subsection" href="#sec8_3"><span>8.3</span>Project Format: Gallery</a><a class="section" href="#sec9_0"><span>9</span> Custom Thumb Cropping</a><a class="section" href="#sec10_0"><span>10</span> Creating Staff Member Profiles</a><a class="section" href="#sec11_0"><span>11</span> Creating Services</a><a class="section" href="#sec12_0"><span>12</span> Creating Testimonials</a><a class="section" href="#sec13_0"><span>13</span> Creating Slides</a><a class="subsection" href="#sec13_1"><span>13.1</span>Caption Layer Builder</a><a class="section" href="#sec14_0"><span>14</span> Creating Views</a><a class="subsection" href="#sec14_1"><span>14.1</span>Views - Slider (Volo)</a><a class="subsection" href="#sec14_2"><span>14.2</span>Views - Slider (Vista)</a><a class="subsection" href="#sec14_3"><span>14.3</span>Views - Slider (Vario)</a><a class="subsection" href="#sec14_4"><span>14.4</span>Views - Gallery + Lightbox (Grid)</a><a class="subsection" href="#sec14_5"><span>14.5</span>Views - Gallery + Lightbox (Cover)</a><a class="subsection" href="#sec14_6"><span>14.6</span>Views - Gallery + Lightbox (Images)</a><a class="subsection" href="#sec14_7"><span>14.7</span>Views - Carousel</a><a class="subsection" href="#sec14_8"><span>14.8</span>Views - Blog</a><a class="subsection" href="#sec14_9"><span>14.9</span>Views - Portfolio Grid</a><a class="subsection" href="#sec14_10"><span>14.10</span>Views - Portfolio Preview</a><a class="section" href="#sec15_0"><span>15</span> Page Builder</a><a class="subsection" href="#sec15_1"><span>15.1</span>Page Builder - The Splash Page</a><a class="subsection" href="#sec15_2"><span>15.2</span>Page Builder - Background Video Settings</a><a class="subsection" href="#sec15_3"><span>15.3</span>Page Builder - The Section Block</a><a class="subsection" href="#sec15_4"><span>15.4</span>Page Builder - Text Block</a><a class="subsection" href="#sec15_5"><span>15.5</span>Page Builder - Video Block</a><a class="subsection" href="#sec15_6"><span>15.6</span>Page Builder - View Block</a><a class="subsection" href="#sec15_7"><span>15.7</span>Page Builder - Services Block</a><a class="subsection" href="#sec15_8"><span>15.8</span>Page Builder - Staff Block</a><a class="subsection" href="#sec15_9"><span>15.9</span>Page Builder - Testimonials Block</a><a class="subsection" href="#sec15_10"><span>15.10</span>Page Builder - Call To Action Block</a><a class="subsection" href="#sec15_11"><span>15.11</span>Page Builder - Home Columns Block</a><a class="subsection" href="#sec15_12"><span>15.12</span>Page Builder - Contact Form Block</a><a class="subsection" href="#sec15_13"><span>15.13</span>Page Builder - Columns Block</a><a class="subsection" href="#sec15_14"><span>15.14</span>Page Builder - Container Block</a><a class="subsection" href="#sec15_15"><span>15.15</span>Page Builder - Pricing Table Block</a><a class="subsection" href="#sec15_16"><span>15.16</span>Page Builder - Tabs Block</a><a class="subsection" href="#sec15_17"><span>15.17</span>Page Builder - Accordion Block</a><a class="subsection" href="#sec15_18"><span>15.18</span>Page Builder - FAQ Block</a><a class="subsection" href="#sec15_19"><span>15.19</span>Page Builder - Skills Block</a><a class="subsection" href="#sec15_20"><span>15.20</span>Page Builder - Feature Block</a><a class="subsection" href="#sec15_21"><span>15.21</span>Page Builder - Stats Block</a><a class="section" href="#sec16_0"><span>16</span> Page Builder - Page Layout</a><a class="subsection" href="#sec16_1"><span>16.1</span>Page Layouts and Used Block List</a><a class="section" href="#sec17_0"><span>17</span> Shortcodes</a><a class="subsection" href="#sec17_1"><span>17.1</span>Shortcode - Buttons</a><a class="subsection" href="#sec17_2"><span>17.2</span>Shortcode - Video</a><a class="subsection" href="#sec17_3"><span>17.3</span>Shortcode - Labels</a><a class="subsection" href="#sec17_4"><span>17.4</span>Shortcode - Badges</a><a class="section" href="#sec18_0"><span>18</span> Theme Options</a><a class="subsection" href="#sec18_1"><span>18.1</span>General Options</a><a class="subsection" href="#sec18_2"><span>18.2</span>Footer Options</a><a class="subsection" href="#sec18_3"><span>18.3</span>Color Options</a><a class="subsection" href="#sec18_4"><span>18.4</span>Google Font Options</a><a class="subsection" href="#sec18_5"><span>18.5</span>Contact Form Options</a><a class="subsection" href="#sec18_6"><span>18.6</span>Widget Areas Options</a><a class="subsection" href="#sec18_7"><span>18.7</span>Advanced Options</a><a class="subsection" href="#sec18_8"><span>18.8</span>Auto Update Options</a><a class="subsection" href="#sec18_9"><span>18.9</span>Branding Options (Hidden)</a><a class="section" href="#sec19_0"><span>19</span> E-Commerce - WooCommerce</a><a class="subsection" href="#sec19_1"><span>19.1</span>WooCommerce - Getting Started</a><a class="subsection" href="#sec19_2"><span>19.2</span>WooCommerce - Settings</a><a class="subsection" href="#sec19_3"><span>19.3</span>WooCommerce - Demo Content</a><a class="subsection" href="#sec19_4"><span>19.4</span>WooCommerce - Sidebar</a><a class="subsection" href="#sec19_5"><span>19.5</span>WooCommerce - Header Shopping Cart </a><a class="section" href="#sec20_0"><span>20</span> Widgetized Areas &amp; Inserting Widgets</a><a class="subsection" href="#sec20_1"><span>20.1</span>Creating A Widgetized Area</a><a class="subsection" href="#sec20_2"><span>20.2</span>Inserting Widgets</a><a class="subsection" href="#sec20_3"><span>20.3</span>Placing Your widgetized Area Into The Theme</a><a class="section" href="#sec21_0"><span>21</span> The Main Menu</a><a class="subsection" href="#sec21_1"><span>21.1</span>Creating A Menu</a><a class="subsection" href="#sec21_2"><span>21.2</span>Adding The Menu To the Theme</a><a class="subsection" href="#sec21_3"><span>21.3</span>Creating A Scrolling Menu Item</a><a class="section" href="#sec22_0"><span>22</span> Contact Form</a><a class="section" href="#sec23_0"><span>23</span> Fonts</a><a class="section" href="#sec24_0"><span>24</span> Theme Translation</a><a class="subsection" href="#sec24_1"><span>24.1</span>Translation Using POT File</a><a class="subsection" href="#sec24_2"><span>24.2</span>Translation Using WPML</a><a class="subsection" href="#sec24_3"><span>24.3</span>Lanuage Switcher Menu</a><a class="subsection" href="#sec24_4"><span>24.4</span>Translation Exceptions</a><a class="subsection" href="#sec24_5"><span>24.5</span>Translating Theme Static Text/Titles</a><a class="subsection" href="#sec24_6"><span>24.6</span>Modifying The theme&#39;s CSS</a><a class="section" href="#sec25_0"><span>25</span> Javascript</a><a class="subsection" href="#sec25_1"><span>25.1</span>Adding Custom Javascript</a><a class="section" href="#sec26_0"><span>26</span> Rebranding the Custom Admin Panel</a><a class="section" href="#sec27_0"><span>27</span> Updates</a>		</div>
+		
+		<!-- docs -->		
+<div class="bbcode-body">
+<br/>
+<h1><a name="sec1_0">1</a> Getting Started<a class="top" href="#toc">top</a></h1>
+<h2><a name="sec1_1">1.1</a> Download Package Contents</h2>
+<br/>
+Once you have downloaded and unzipped the OneUp package you will be faced with a list of files and folders. An explanation of these is as follows. Any item not mentioned here should be ignored for the moment.<br/>
+<br>
+<b>Folders</b>
+<br/>
+<table><tr><td class="option">oneup.theme.zip</td><td class="value">This is a zip archive of the theme. This is used for installation method 2 (see below)<td></tr><tr><td class="option">docs</td><td class="value">This is the help documentation. To view simply open <i>index.html</i> found inside this folder<td></tr></table>
+<h2><a name="sec1_2">1.2</a> Installing Your Theme</h2>
+<br/>
+Once you have downloaded the OneUp package from Themeforest.net, there are 2 ways of installing this theme. These are as follows:<br/>
+<br>
+<b>METHOD 1</b>
+<br/>
+<ol style="list-style-type: decimal">
+	<li>Unzip the download package using Winzip or equivalent.<br/>
+	</li>
+	<li>You will see another zip archive file inside called <b>oneup.theme.zip</b>, unzip this file also using Winzip or equivalent software and using an FTP client (eg. Filezilla), upload its contents to your Wordpress installation. You will need to place the folder into the following location:  <i>wp-content/themes</i>
+	</li>
+	<li>Now inside your Wordpress admin area, go to <i>Appearance &gt; Themes</i> and there you will see the OneUp Theme.<br/>
+	</li>
+	<li>Click <i>Activate</i> to activate the theme. If you do not see the theme in this screen, you have done something incorrectly. Review the last few steps again.</li>
+</ol>
+<b>METHOD 2</b>
+<br/>
+<ol style="list-style-type: decimal">
+	<li>Unzip the OneUp download package. Once unzipped you will see a zip file named <b>oneup.theme.zip</b>, this is a compressed version of the theme.<br/>
+	</li>
+	<li>Now inside your Wordpress admin area, go to <i>Appearance &gt; Themes &gt; Install Themes (tab) &gt; Upload</i>
+	</li>
+	<li>Click browse and locate this <b>oneup.theme.zip</b> file and upload it<br/>
+	</li>
+	<li>Now you will see the OneUp theme in the <i>Manage Themes</i> tab.<br/>
+	</li>
+	<li>Click <i>Activate</i> to activate the theme. If you do not see the theme in this screen, you have done something incorrectly. Review the last few steps again.</li>
+</ol>
+<b>Installation Video</b>
+<br/>
+Here is a link to an video showing the installation of the theme and the importing of demo content: <a href="http://www.youtube.com/watch?v=heHlFAb0x_4" rel="nofollow">INSTALLATION VIDEO</a><div class="note"><b>Congratulations you have now successfully installed the OneUp Theme</b></div>
+<h2><a name="sec1_3">1.3</a> Theme Installation Errors</h2>
+<br/>
+<div class="alert">Do not upload the Themeforest download package directly to your Wordpress site, because this will lead to errors. Make sure to Unzip this package and inside you will find the theme zip archive: <b>oneup.theme.zip</b>. This is what you will need to upload to your Wordpress installation</div>
+<br/>
+<b>If you upload / Install the OneUp theme and you get one of the following errors, then you have forgotten to unzip the download package.</b>
+<br/>
+<ol style="list-style-type: decimal">
+	<li>This theme is invalid<br/>
+	</li>
+	<li>This theme is missing a style.css</li>
+</ol>
+<br/>
+<h1><a name="sec2_0">2</a> Theme Setup<a class="top" href="#toc">top</a></h1>Before you start using the OneUp theme, a few setup steps are required. This section will walk you through these steps.<br/>
+<br>
+<br/>
+<h2><a name="sec2_1">2.1</a> Importing Demo Content</h2>
+<br/>
+Some buyers like to install their theme and have it look exactly like the Themeforest preview site. If this is something you would like to do, then follow the steps in this section. This step is optional so feel free to skip it. The subsequent sections will provide all the instructions you need to insert your own content manually.<div class="note">The dummy content inserted in this step will not contain the beautiful images seen in the Themeforest.net demo. These images cannot be included because they are commercial images, which we have purchased for theme demonstration only and we do not have a redistribution license for these assets.</div><b>To Import Demo Content</b><div class="note">Make sure to install and activate the OneUp theme before importing any demo content.</div><img src="shots/demo-content.jpg" alt="[demo-content.jpg]" title="" /> 
+<br/>
+<ol style="list-style-type: decimal">
+	<li>Install and activate the OneUp theme. (See section above)<br/>
+	</li>
+	<li>Go to the OneUp theme options <i>Appearance &gt; Theme Options</i>
+	</li>
+	<li>The <b>General</b> tab should be open by default, but if not click it to show the general options.<br/>
+	</li>
+	<li>The very first section in the <b>General</b> is the demo Content import section.<br/>
+	</li>
+	<li>Click the large green <i>Import Demo Content</i> button once only.<br/>
+	</li>
+	<li>The theme will now import our demo content into you site. A progress bar will inform you of the import processes progress.<br/>
+	</li>
+	<li>This importer will basically import posts, pages, comments, custom fields, categories, tags, sidebars, widgets, menus and all configuration from our preview content export file.</li>
+</ol>
+<div class="note">Please note that dummy images will be used instead of the premium image assets we have used in our online preview.</div><div class="alert"><b>Alert 1</b> Due to limitations of the importer function in this theme, one the demo content has been imported, the homepage of the theme will be set to the &quot;Sample Page&quot; which comes with all fresh installs of WordPress. To rectify this, go to Settings&gt;Reading from the main WP admin menu and in the first option at the top of the page entitled &quot;Front page displays&quot;, set it to &quot;A static page&quot; and select your desired homepage from the drop list of imported pages. Save the changes and the homepage will now be updated.</div>
+<br/>
+<div class="alert"><b>Alert 2</b> If you already have content in your site, you will be asked to confirm the import, but if your site is a fresh installation of Wordpress, there will be no confirmation request. Importing demo content will not overwrite existing content such as posts or pages, but it will replace all sidebar and widget configuration. So please be aware of this before you decide to do this process.</div>
+<h1><a name="sec3_0">3</a> Theme Structure - How It Works<a class="top" href="#toc">top</a></h1>The OneUp theme is essentially a single page theme with a separate blog section however it can be used as a multi-page theme also. The single page layout is made up of a splash page and multiple sub section. These sub sections make up the various parts of the single page layout. To construct this site structure you would use the page builder. See the Page Builder section for instruction on how to achieve this layout.<br/>
+<h1><a name="sec4_0">4</a> Retina Support<a class="top" href="#toc">top</a></h1>The OneUp theme contains optional support for devices with a retina display. This support may be enabled/disabled via the theme options ( Appearance&gt;Theme Options&gt;Advanced Tab&gt;Retina Support&gt; Yes/No).<br/>
+<br>
+What retina support really means is that the theme will serve hi-res version of content images to decide which have a retina display. This is done automatically for all content used in the theme except for one place; The site logos.<br/>
+<br>
+<b>Creating a Retina Site Logo</b>
+<br/>
+If retain support is enabled, a high resolution version of the site logo is required. The theme will not automatically create this, it must be done manually. See the instructions below:<br/>
+<br>
+<ol style="list-style-type: decimal">
+	<li>Using image editing software, you will need to create a version of your logo image which is 2 times the size of your original logo. For example is your original logo is 100x50px, the retina logo will need to be 200x100px.<br/>
+	</li>
+	<li>When creating this retina logo, there is a rule about how the retina logo has to be named. The file name must be exactly the same as the original image but with a suffix of <b>@2x</b>, added just before the file type.<br/>
+	</li>
+	<li>For example, say your original image is called <b>logo.jpg</b>, therefore the retina image file name would be <b>logo@2x.jpg</b>.<br/>
+	</li>
+	<li>Upload both the normal logo image and the 2x logo image at the same time to your WP theme insert the original logo image into the logo option in the theme options and the theme will automatically take care of the rest.</li>
+</ol>
+<br/>
+<h1><a name="sec5_0">5</a> Creating Posts<a class="top" href="#toc">top</a></h1>The OneUp theme contains 3 different post formats - Standard, Video and Gallery. 
+<br/>
+<br>
+<br/>
+<h2><a name="sec5_1">5.1</a> Custom Metaboxes</h2>
+<br/>
+OneUp supports several post formats, some of them like <i>Video</i> or <i>Gallery</i> require additional configuration parameters which can be set in the Metabox Area, under the page content editor. Each time a Post Format is selected, the page updates and only the Metaboxes relevant to the current selections will be shown.<br/>
+<br>
+<br/>
+<br>
+<h2><a name="sec5_2">5.2</a> Post Format: Standard</h2>
+<br/>
+This format accepts an optional featured image. To insert this featured image do the following:<br/>
+<br>
+<ol style="list-style-type: decimal">
+	<li>In the Featured Image box, click <i>Set featured Image</i>
+	</li>
+	<li>This will open the WP media loader. Select the image you wish to use for the featured image. The resolution should be large, minimum of 1000px wide and the pixelentity framework will auto-generate the size required for the post. ( The image should be optimized for web and devices and should have a file size generally less that 300kb. The smaller the file size the better, once the image quality is not compromised. )<br/>
+	</li>
+	<li>Once the image is loaded ensure the <i>original size</i> is selected and click the <i>Set as Featured Image</i> button.<br/>
+	</li>
+	<li> Close the media uploader window and publish your post.</li>
+</ol>
+<br/>
+<h2><a name="sec5_3">5.3</a> Post Format: Video</h2>
+<br/>
+This format accepts a custom video post type as its media content. To insert this video do the following:<br/>
+<br>
+<br/>
+<ol style="list-style-type: decimal">
+	<li>Scroll down the page to the <i>Video Options</i> Metabox. There you will find a drop menu containing the list of all the custom video post types which have been created.<br/>
+	</li>
+	<li>Select the video you wish to feature in this post and publish the post.</li>
+</ol>
+<div class="alert">In order for a video to appear in the list, it first needs to be created. See the section on <b>Creating A Video</b> for more information.</div>
+<br/>
+<br>
+<br/>
+<br>
+<h2><a name="sec5_4">5.4</a> Post Format: Gallery</h2>
+<br/>
+This format accepts a custom gallery post type as its media content. To insert this gallery do the following:<br/>
+<br>
+<ol style="list-style-type: decimal">
+	<li>Scroll down the page to the <i>Gallery</i> box. There you will find a drop menu containing the list of all the custom gallery post types which have been created.<br/>
+	</li>
+	<li>Select the gallery you wish to feature in this post.</li>
+</ol>
+Once the required gallery has been selected, the following options can be found immediately below:<br/>
+<br>
+<table><tr><td class="option">Show As</td><td class="value">Select how this gallery&#39;s content should be shown in the post. 
+<b>Slider (Volo)</b> - Slider with Side to side image sliding transitions.<br/>
+<b>Slider (Vista)</b> - Slider with pan/zoom effects (aka Ken Burns effect).<br/>
+<b>Slider (Vario)</b> - Slider with varied image transitions and video support.<br/>
+<b>Gallery (Grid)</b> - Grid of images which open in a lightbox<br/>
+<b>Gallery (Cover)</b> - One single cover image, with the gallery opening in a lightbox once the cover image is clicked.<br/>
+<b>Gallery (Images)</b> - All images in the gallery are shown as single images.<br/>
+<b>Gallery (Carousel)</b> - All Image or Video content in the gallery is displayed as a carousel.<td></tr><tr><td class="option">Media Width</td><td class="value">Force gallery images to a fixed width value. May result in image cropping, the extent of which would depend on each image&#39;s specific aspect ratio. To avoid cropping of the images leave these fields blank and the gallery will be sized to fit its content / container.<td></tr><tr><td class="option">Media Height</td><td class="value">Force gallery images to a fixed height value. May result in image cropping, the extent of which would depend on each image&#39;s specific aspect ratio. To avoid cropping of the images leave these fields blank and the gallery will be sized to fit its content / container.<td></tr></table><div class="alert">In order for a gallery to appear in the list, it first needs to be created. See the section on <b>Creating A Gallery</b> for more information.</div>
+<h1><a name="sec6_0">6</a> Creating a Gallery<a class="top" href="#toc">top</a></h1>The OneUp theme features a Gallery custom post type. This can be found in the main WP admin menu <i>Galleries</i>. All gallery type posts and portfolio items with a gallery format, will need to have their gallery content created first using this custom post type. Once it has been created here it will be available to be inserted into those areas.<br/>
+<br>
+<br/>
+<br>
+<h2><a name="sec6_1">6.1</a> Direct Upload Gallery</h2>
+<br/>
+This type of gallery is most suited for when the images you want to display are not already uploaded to your Wordpress installation, it will present you with a big &quot;Drop Files Here&quot; area into which you can just drag and drop images from your hard drive. The gallery will take care of everything and, once the upload process is done, you can just save/publish. The image order can be manually altered by dragging thumbs to suit your needs.<br/>
+<br>
+<b>To create a Direct Upload Gallery do the following:</b>
+<ol style="list-style-type: decimal">
+	<li>Select the <i>Galleries</i> item in the main admin menu &amp; select &quot;Add New&quot;.<br/>
+	</li>
+	<li>In the <i>Gallery</i>box, select &quot;Direct upload&quot;.<br/>
+	</li>
+	<li>Drag and drop your images into the <i>Upload Gallery Images</i> section&#39;s drop zone with the dashed outline.<br/>
+	</li>
+	<li>These images will now load and appear below the drop zone in the <i>Gallery Content</i> area as thumbnails.<br/>
+	</li>
+	<li>You may drag these thumbnails to reorganize the sequence of images if this is important.<br/>
+	</li>
+	<li>You may also add an optional featured image to the gallery post. This will be used as the cover for the gallery post in certain configurations.<br/>
+	</li>
+	<li>Now click <i>Publish</i> to publish this gallery post. This type of post is mostly used to provide content for another post or portfolio project. The post may also be viewed in it&#39;s own page however by clicking the <i>View Post</i> button.</li>
+</ol>
+<br/>
+<h2><a name="sec6_2">6.2</a> Quick Browse Mode</h2>
+<br/>
+In addition to the drag and drop methods for uploading images mentioned in the above section, the OneUp theme includes another new and fast way to add images to galleries. This is primarily useful when the media you wish to add to a gallery already exists in your WordPress database, meaning you have uploaded it in the past sometime. 
+<br/>
+Using this quick browse mode you can view and filter all existing content in the media library in a convenient thumbnails grid and select your desired media directly from that grid, adding it to your gallery in a couple of simple clicks. 
+<br/>
+<img src="shots/mboxes/quick.browse.mode.png" alt="[quick.browse.mode.png]" title="" />
+<br/>
+<b>To Add Media via &quot;Quick Browse&quot; Mode, Do the Following:</b>
+<ol style="list-style-type: decimal">
+	<li>In the &quot;Add New&quot; or &quot;Edit Gallery&quot; screen, located just above the gallery contents area, you will see a button with the label <b>Add</b> Click this button to open the default WordPress media loader.<br/>
+	</li>
+	<li>You will now see a grid of thumbnail images showing all of the media which has been uploaded to your website. You can use the filter dropdown to filter the displayed media based on Media Tags (See next section for an explanation of media tags).<br/>
+	</li>
+	<li>Once you have filtered the results and you have found the media you wish to insert into your gallery, simply click on a thumbnail to select it. Multiple thumbnails may be selected by simply clicking on them. Clicking on a selected thumbnail will deselect it again. 
+	</li>
+	<li>Once you have selected your images, click <b>Add</b> to add these images to your gallery. The dialog will then close and you will see your image in the list of gallery contents.</li>
+</ol>
+<br/>
+<h2><a name="sec6_3">6.3</a> Media Tags</h2>
+<br/>
+The WordPress media library doesn&#39;t allow you to categorize attachments/images in any way besides the upload date. For this reason, in our framework, we have introduced a feature called &quot;Media Tags&quot;. Media Tags work exactly like regular &quot;Tags&quot; do for posts: each image can be assigned one or more tags which can then be used to group similar/related images.The media library admin page has been expanded to allow easy media tags management and image filter by tag.<br/>
+<br>
+<br/>
+<h2><a name="sec6_4">6.4</a> Media Tags Gallery</h2>
+<br/>
+When Wordpress media library is already filled with some images, you can categorize them by using media tags. Once you have created one or more media tags, you can use them to create a gallery. Unlike the direct upload case, the gallery will now show a list of all existing media tags: by selecting one (or more) tag from the list (and clicking the refresh button), all the images assigned to those tag will be automatically added to the gallery. Since the same tags can be used in multiple galleries, you don&#39;t need to upload the same image multiple times in order for it to appear in different places. Whenever you assign additional images to a media tag, every galleries making use of these tags will also update its content automatically.<br/>
+<br>
+See a video of this process in action: <a href="http://www.youtube.com/watch?v=B16L2AFOUxE" rel="nofollow">MEDIA TAGS VIDEO</a>
+<br/>
+<br>
+<b>To create a Media Tags Gallery do the following:</b>
+<br/>
+<ol style="list-style-type: decimal">
+	<li>Select the <i>Galleries</i> item in the main admin menu &amp; select &quot;Add New&quot;<br/>
+	</li>
+	<li>In the <i>Gallery Options</i>box select &quot;Media tags (Any)&quot; or &quot;Media Tags (All)&quot;. For an explanation of media tags see the Media Tags section above.<ul>
+			<li><b>Any</b> will includes all the images matching at least one of the selected media tags. 
+			</li>
+			<li><b>All</b> will include all the images matching all the selected media tags.</li>
+		</ul>
+	</li>
+	<li>Select one or more <i>Media Tags</i> from the list<br/>
+	</li>
+	<li>Click <i>Refresh</i> button<br/>
+	</li>
+	<li>These images will now load and appear below the drop zone in the <i>Gallery Content</i> area as thumbnails.<br/>
+	</li>
+	<li>You may drag these thumbnails to reorganize the sequence of images in the Gallery if this is important.<br/>
+	</li>
+	<li>You may also add an optional featured image to the gallery post. This will be used as the cover for the gallery post in certain configurations.<br/>
+	</li>
+	<li>Now click <i>Publish</i> to publish this gallery post. This post will not appear in your website. This type of post is only used to provide content for another post or portfolio project. The post may be viewed in it&#39;s own page however by clicking the <i>View Post</i> button.</li>
+</ol>
+<br/>
+<h2><a name="sec6_5">6.5</a> Simple Gallery Captions, Links, Videos</h2>
+<br/>
+<img src="shots/gallery-links.jpg" alt="[gallery-links.jpg]" title="" />
+<br/>
+Seeing as galleries are often used to populate other views such as a lightbox, slider or carousel, the images in a gallery can have other content associated with them, which then can be seen in the view to which it provides content. For example, for a carousel which displays video content, a video must be associated with each image in the gallery. Another example is when images are shown in in a slider or lightbox, they can have associated caption title and descriptions. This text is then displayed once that image is shown in the slider or lightbox.<br/>
+<br>
+Open the &quot;Edit Gallery&quot; page of the gallery which you would like to edit. Next find the specific image you wish to associate additional content with. The image thumbnail will have 2 icons in the top left corner. Click the &quot;Edit Icon&quot; (pencil and paper). This will open the &quot;Gallery Image Settings&quot; dialog box. In this dialog all of the following are performed.<br/>
+<br>
+<b>Adding Links To Gallery Images</b>
+To associate a link with this image enter the link into the field entitled &quot;Link&quot;. Now click &quot;Accept changes and close the dialog&quot; button to save and return to the gallery edit page. This image will now hold this link and provided the view displaying this image supports image links, clicking this image will send the user to the entered link.<br/>
+<br>
+<b>Adding Videos To Gallery Images</b>
+To associate a video with this image enter the video url (Vimeo/Youtube) the field entitled &quot;Use Video&quot;. Now click &quot;Accept changes and close the dialog&quot; button to save and return to the gallery edit page. This image will now display this video and provided the view displaying this image supports video playback, clicking this image will playback the linked video.<br/>
+<br>
+<b>Adding Text Content To Gallery Images</b>
+To associate a title and/or description with this image enter the title into the &quot;Title&quot; field and description into the &quot;Description&quot; field. Now click &quot;Accept changes and close the dialog&quot; button to save and return to the gallery edit page. This image will now display this a caption containing a title and description provided the view displaying this image supports captions. All Slider views apart from the splash page slider support captions. The Lightbox view also supports captions.<br/>
+<h1><a name="sec7_0">7</a> Creating a Video<a class="top" href="#toc">top</a></h1>The OneUp theme features a video custom post type. This can be found in the main WP admin menu <i>Videos</i>. All video type posts and portfolio items will need to have their video content created first using this custom post type. Once it has been created here it will be available to be inserted into those areas.<br/>
+<br>
+<br/>
+<img src="shots/vid.jpg" alt="[vid.jpg]" title="" />
+<br/>
+<br>
+<b>To create a video custom post do the following:</b>
+<br/>
+<ol style="list-style-type: decimal">
+	<li>Select the <i>Videos</i> item in the main admin menu &amp; select &quot;Add New&quot;<br/>
+	</li>
+	<li>In the <i>Video Options</i>box select what type of video you would like to create.The options are <b>Youtube</b> and <b>Vimeo</b>
+	</li>
+	<li>In both video types, you just need to insert the url of the online video into the <i>Video URL</i> field.<br/>
+	</li>
+	<li>Finally, click <i>Publish</i> to publish your video custom post type. This post will not immediately appear in your website. This type of post is normally used to provide content for another post or portfolio project. However the post may be viewed in it&#39;s own page by clicking the <i>View Post</i> button.</li>
+</ol>
+<b>There are a few additional options related to video playback:</b>
+<table><tr><td class="option">Play Fullscreen</td><td class="value">If this option is enabled, the video will playback in a fullscreen lightbox window once clicked on by a user. This can be suitable for HD video content.<td></tr><tr><td class="option">Max Width</td><td class="value">This field accepts a pixel value which limits the width of the video item when played in the fullscreen lightbox window as mentioned above. This option allows the width of the video to be limited to the video&#39;s native resolution.<td></tr></table><div class="note">The OneUp theme supports automatically fetching of video cover images, but if you would like to insert your own cover image for the video you can do so using the &quot;Featured Image&quot; control for this video item.</div>
+<h1><a name="sec8_0">8</a> Creating a Project<a class="top" href="#toc">top</a></h1>The OneUp theme features a Project custom post type. This can be found in the main WP admin menu <i>Projects</i>. All portfolio items will need to have their project content created first using this custom post type. Once it has been created here it will be available to be inserted into portfolio pages, as well as widgets.<br/>
+<br>
+<br/>
+<b>To create a Project custom post do the following:</b>
+<br/>
+<ol style="list-style-type: decimal">
+	<li>Select the <i>Projects</i> item in the main admin menu &amp; select &quot;Add New&quot;<br/>
+	</li>
+	<li>Give the Project a title<br/>
+	</li>
+	<li>Enter a description of the project into the WP editor. This description will be visible below the project media on both the single project page and the scrolling ajax portfolio view.<br/>
+	</li>
+	<li>Select a format for the project.  The project format determines how the project appears on the single project page. The options are: <b>Standard</b>, <b>Video</b> and <b>Gallery</b>. See below for an explanation of each of these types and their associated options.<br/>
+	</li>
+	<li>Set the projects Featured Image This will be the image which appears on the portfolio pages unless a project format of &quot;Gallery&quot; is specified. In this case either the featured image of the gallery is displayed, or if none exists, then the first image of the gallery is shown.</li>
+</ol>
+<b>Portfolio Dialog Box</b>
+The edit project page contains a box in the sidebar entitled &quot;Portfolio&quot;. In this box you can find a few additional options which dictate how this project will be displayed when in a portfolio grid situation. The options available here are as follows:<br/>
+<br>
+<table><tr><td class="option">Thumbnail</td><td class="value">This option allows you to specify a thumbnail to be shown in the portfolio grid in stead of the theme creating it automatically from the project&#39;s media. This is for those users who want to control the cropping of their images in the portfolio grid.<td></tr><tr><td class="option">Layout</td><td class="value">Here you can specify a custom size/proportion for this project&#39;s thumbnail when displayed in the portfolio grid. This option will only work if the chosen portfolio grid supports variable sized project cells. The format is &quot;Width&quot;x&quot;Height&quot;, where width is columns and height is the number of rows the cell should span. This can also be overwritten later when creating the grid view itself.<td></tr><tr><td class="option">Title</td><td class="value">Enter here a custom title which will be shown in the portfolio grid thumbnail (on hover).<td></tr><tr><td class="option">Description</td><td class="value">Enter here a custom subtitle which will be shown in the portfolio grid thumbnail (on hover).<td></tr><tr><td class="option">Lightbox</td><td class="value">If set to yes, this project&#39;s image content will be displayed in a lightbox view when clicked by the user from the portfolio grid page.<td></tr><tr><td class="option">LB Title</td><td class="value">Enter a title which will be displayed in the lightbox.<td></tr><tr><td class="option">LB Description</td><td class="value">Enter a description which will be displayed in the lightbox. (This is ignored for Gallery/Video project formats.)<td></tr></table>
+<h2><a name="sec8_1">8.1</a> Project Format: Standard</h2>
+<br/>
+This format is the most simple project type and has no additional options and on the single projects page holds one single image <i>The featured image inserted in the above steps</i>. Therefore you can now publish the project.<br/>
+<br>
+<br/>
+<br>
+<h2><a name="sec8_2">8.2</a> Project Format: Video</h2>
+<br/>
+This format accepts a custom video post type as its media content. To insert this video do the following:<br/>
+<br>
+<ol style="list-style-type: decimal">
+	<li>Scroll down the page to the <i>Video Options</i> box. There you will find a drop menu containing the list of all the custom video post types which have been created.<br/>
+	</li>
+	<li>Select the video you wish to feature and publish the the project .</li>
+</ol>
+<div class="alert">In order for a video to appear in the list, it first needs to be created. See the section on <b>Creating A Video</b> for more information.</div>
+<br/>
+<br>
+<br/>
+<h2><a name="sec8_3">8.3</a> Project Format: Gallery</h2>
+<br/>
+This format accepts a custom gallery post type as its media content. To insert this content do the following:<br/>
+<br>
+<ol style="list-style-type: decimal">
+	<li>Scroll down the page to the <i>Gallery / Slider Options</i> box. There you will find a drop menu containing the list of all the custom gallery post types which have been created.<br/>
+	</li>
+	<li>Select the gallery you wish to feature in this project.</li>
+</ol>
+Once the required gallery has been selected, the following options can be found immediately below:<br/>
+<br>
+<table><tr><td class="option">Show As</td><td class="value">Select how this gallery&#39;s content should be shown in the project.<br/>
+<b>Slider (Volo)</b> - Slider with Side to side image sliding transitions.<br/>
+<b>Slider (Vista)</b> - Slider with pan/zoom effects (aka Ken Burns effect).<br/>
+<b>Slider (Vario)</b> - Slider with varied image transitions and video support.<br/>
+<b>Gallery (Grid)</b> - Grid of images which open in a lightbox<br/>
+<b>Gallery (Cover)</b> - One single cover image, with the gallery opening in a lightbox once the cover image is clicked.<br/>
+<b>Gallery (Images)</b> - All images in the gallery are shown as single images.<br/>
+<b>Gallery (Carousel)</b> - All Image or Video content in the gallery is displayed as a carousel.<td></tr><tr><td class="option">Media Width</td><td class="value">Force gallery images to a fixed width value. May result in image cropping, the extent of which would depend on each image&#39;s specific aspect ratio. To avoid cropping of the images leave these fields blank and the gallery will be sized to fit its content / container.<td></tr><tr><td class="option">Media Height</td><td class="value">Force gallery images to a fixed height value. May result in image cropping, the extent of which would depend on each image&#39;s specific aspect ratio. To avoid cropping of the images leave these fields blank and the gallery will be sized to fit its content / container.<td></tr></table><div class="alert">In order for a gallery to appear in the list, it first needs to be created. See the section on <b>Creating A Gallery</b> for more information.</div>
+<h1><a name="sec9_0">9</a> Custom Thumb Cropping<a class="top" href="#toc">top</a></h1><img src="shots/mboxes/thumbnail.crop.png" alt="[thumbnail.crop.png]" title="" />
+<br/>
+The OneUp theme contains a custom thumbnail cropping feature. This feature is most useful if you want to control how your large images are cropped when they are for example shown in your portfolio grid. With this feature you can control exactly how the thumbnails are created from your larger images.<br/>
+To use this feature go to: <b>Media &gt; Library</b> in the main WordPress menu. Now select any image from the library, an image used in your projects would be most suitable. On the main attachment page, scroll down until you see the dialog box entitled: &quot;Thumbnails&quot;. To define a custom crop for a thumbnail, do the following:<br/>
+<br>
+<ol style="list-style-type: decimal">
+	<li>This dialog will contain all of the thumbnail version of this attachment which have been auto-generated by the theme for use in those areas you have inserted this image. If this image features in many areas of the theme, or has done at some stage, but was replaced, this dialog may contain numerous thumbnails. 
+	</li>
+	<li>Find the thumbnail which corresponds with the size of the thumbnail in your portfolio page (which you wish to re-crop). You may need to check the size of that image in your portfolio grid page. You can do this with an element inspector which is built into most modern browsers. Use it by right clicking once you are hovering the image, then select &quot;Inspect Element&quot; from the context menu. Now you should be able to find the image size in the panels which appear.<br/>
+	</li>
+	<li>Once you have found the thumb you are looking for, click it in the dialog. This will open the thumb cropping control, hiding all other thumbs in the process.<br/>
+	</li>
+	<li>With your mouse you can now resize and reposition the cropping frame in the window on the left. Once the position has changed you will see a preview of the resulting thumbnail in the window on the right.<br/>
+	</li>
+	<li>When you have found a suitable crop for this thumbnail, click the &quot;Save&quot; button. The crop control will close and the other thumbs will reappear. 
+	</li>
+	<li>Now refresh your portfolio grid page to view the updated thumbnail. Remember to clear your browser cache, otherwise the updated thumbnail may not appear.</li>
+</ol>
+<div class="note">Once thumb cropping has been altered, the browser cache should be cleared before viewing the page which contains the updated thumbnail.</div>
+<h1><a name="sec10_0">10</a> Creating Staff Member Profiles<a class="top" href="#toc">top</a></h1>The OneUp theme features a staff member custom post type. This can be found in the main WP admin menu <i>Staff Members</i>. All staff member profiles which will be inserted into this theme will need to have their content created first using this custom post type. Once it has been created here it will be available to be inserted into the theme via the page builder. The following options are available in this custom post type:<br/>
+<br>
+<table><tr><td class="option">Position</td><td class="value">Enter the staff member&#39;s position<td></tr><tr><td class="option">Social media links (by name)</td><td class="value">Enter the links to the staff member&#39;s social media profiles. A field is provided for each available social media hub.To hide an icon, simply  leave the field empty.<td></tr></table>The Staff member&#39;s photo and description are inserted using the post&#39;s featured image control and the normal editor, while that person&#39;s name is entered as the mail title of the custom post type.<br/>
+<h1><a name="sec11_0">11</a> Creating Services<a class="top" href="#toc">top</a></h1>The OneUp theme features a service custom post type. This can be found in the main WP admin menu <i>Services</i>. All services which will be inserted into this theme will need to have their content created first using this custom post type. Once it has been created here it will be available to be inserted into the theme via the page builder. The following options are available in this custom post type:<br/>
+<br>
+<table><tr><td class="option">Icon</td><td class="value">Choose an icon which best represents the service<td></tr><tr><td class="option">Features</td><td class="value">Enter one or more features or benefits of this service and click &quot;Add New&quot;. These will appear under the service title, in a horizontal list format.<td></tr></table>The service&#39;s title and description are inserted using the post&#39;s title and normal editor. The description area is of a very limited size in the service section so in order to add more text a &quot;more&quot; tag should be used. This should be inserted after the initial few words, used as an intro to the service. When this tag is used a &quot;more&quot; link will appear under the service icon which users can click to read more. They will be taken to the service single page to do so.<br/>
+<h1><a name="sec12_0">12</a> Creating Testimonials<a class="top" href="#toc">top</a></h1>The OneUp theme features a testimonial custom post type. This can be found in the main WP admin menu <i>Testimonials</i>. All testimonials which will be inserted into this theme will need to have their content created first using this custom post type. Once it has been created here it will be available to be inserted into the theme via the page builder. The following options are available in this custom post type:<br/>
+<br>
+<table><tr><td class="option">Type</td><td class="value">Enter the subtitle for the testimonial&#39;s citing. This text will appear immediately after the cite text. This field is usually used for things like showing the position or title of the person who has said the quotation.<td></tr></table>The testimonial&#39;s citing and content are inserted using the post&#39;s title and the normal editor. For example if you wanted to show a quotation by Pablo Picasso, the post title would be &quot;Pablo Picasso&quot;, the editor would hold the quotation text and the type metabox would show something like &quot;Cubist Painter&quot;. The title is how you will recognise this service when selecting it inside the page builder.<br/>
+<h1><a name="sec13_0">13</a> Creating Slides<a class="top" href="#toc">top</a></h1>The OneUp theme features a Slide custom post type. This can be found in the main WP admin menu <i>Slides</i>. All slides requiring animated caption content which will be inserted into this theme will need to be created first using this custom post type. Once it has been created here it will be available to be inserted into the theme slideshow via the Views custom post type. The following options are available in this custom post type:<br/>
+<br>
+<table><tr><td class="option">Layout</td><td class="value"><b>Boxed</b> - use this setting when the slide will be inserted into a boxed slider. 
+<b>Full Width</b> - Use this setting when the slide will be inserted into a full width slider.<br/>
+The setting chosen here does not decide whether the slide is boxed or full width, but only uses this setting to know how to size the image which is about to be inserted into this slide.<td></tr></table>To insert an image into this slide the featured image control is used. Once the image has been inserted it will appear in the main content box of the <b>Layer Builder</b>. The slide is now ready to have captions applied and we will explain how this work in the following section.<br/>
+<br>
+<br/>
+<h2><a name="sec13_1">13.1</a> Caption Layer Builder</h2>
+<br/>
+Captions are added to slides using the layer builder. This builder works by assigning each caption to a separate layer. Captions layers may contain text, images or HTML markup. Each layer is they given an X &amp; Y coordinate position as well as animation parameters. In this way complex animated captions may be created for slides. 
+<br/>
+<img src="shots/mboxes/slide.builder.png" alt="[slide.builder.png]" title="" />
+<br/>
+<b>To create a caption do the following</b> (Once the featured image has been set):<br/>
+<br>
+<ol style="list-style-type: decimal">
+	<li>With the slide image showing in the preview box, enter a size for the slide in the <b>Size</b> box immediately below the preview box. This size should match the size of your slider when it will be inserted into the page. If you are creating a full Width slider, enter 940px for the width (even thought in a full width slider, the image will be bigger then this, the caption area will not be larger then 940px).<br/>
+	</li>
+	<li>If you wish to change the image in this preview area, simply click the &quot;Change Image&quot; button and the WP media dialog will open so you can choose an alternative image.<br/>
+	</li>
+	<li>Next click on &quot;Add New Layer&quot; to create a layer for your caption.<br/>
+	</li>
+	<li>The layer will appear in a table under the slide preview, the dark outline of the table row signifies that this layer is currently being edited. As well as the table row appearing you should also see a set of layer properties. These properties will be explained in a moment here below.<br/>
+	</li>
+	<li>Add content to this layer by typing in the <b>Content</b> field (if text/HTML content) or clicking on the green &quot;+&quot; icon (if image content). You will see your content appear at position 0,0 or the top left of the slide preview box.<br/>
+	</li>
+	<li>Add an X &amp; Y position for your caption. These values represent the final position of your caption (after animation) and are relative to the top corner of the image preview window, which is position X=0, Y=0. When you enter new values in these boxes you should see your caption content&#39;s position update reflected in the preview window.<br/>
+	</li>
+	<li>Next enter a value in the <b>Wait</b> field. This value (secs) represents the delay before this caption&#39;s animation begins. Example, if a figure of 1.5 is entered, the animation of this caption will begin after one and a half seconds has elapsed.<br/>
+	</li>
+	<li>Next enter a value in the <b>Duration</b> field. This value (secs) represents the amount of time the caption takes to animate. Therefore the longer the duration time the slower your caption will move/animate. Likewise, the shorter the duration time, the faster it will move. 
+	</li>
+	<li>Finally to complete this caption, you will need to set the caption&#39;s properties. These are as follows:</li>
+</ol>
+<b>Caption Layer Properties</b>
+<table><tr><td class="option">Theme</td><td class="value">Choose the theme of the caption, White or Black. This determines whether the main coloring of the caption text is white or black.<td></tr><tr><td class="option">Text</td><td class="value">Set the size of the caption text from the available pre-made options. See the slide preview for live updates of the caption text once an option has been changed.<td></tr><tr><td class="option">Transition</td><td class="value">Choose the animation/transition you would like to apply to your caption. See the following page for a demo of all available transitions:  <a href="http://daneden.me/animate/" rel="nofollow">http://daneden.me/animate/</a><td></tr><tr><td class="option">Color</td><td class="value">Select the color of the text using a color picker.<td></tr><tr><td class="option">Background</td><td class="value">If you require a background for the caption text you can set this here. The list contains different % settings for the background&#39;s transparency. 100% denotes a solid background.<td></tr><tr><td class="option">BG Color</td><td class="value">Select the color of the text background using a color picker.<td></tr><tr><td class="option">Classes</td><td class="value">Here you can enter custom class names which will be added to this caption. These class would then need to be styled in your CSS stylesheet.<td></tr><tr><td class="option">Style</td><td class="value">Here you can add inline CSS properties which will be added to the caption. Eg. &quot;font-size=20px;&quot; (without quotes)<td></tr></table><div class="note">To test your animation at any time click the &quot;Run&quot; button located immediately beneath the slide preview area.</div>Once the caption layer&#39;s properties are all set, click the &quot;Save&quot; button, and then proceed to add more layers as required. When multiple layers have been added, make sure that the layer you wish to edit has the dark color of the selected layer. To select a layer to edit, click the &quot;Edit Icon&quot; (paper &amp; pencil) next to the &quot;duration&quot; field.<div class="note"><b>Tip: Position your caption layers by eye:</b>
+<b>1.</b> Once the layer is selected you can use the arrow keys on the keyboard to move the caption.<br/>
+<b>2.</b> Alternatively hold the shift key and click on the caption in the preview window. Now move the mouse, no need to hold the mouse buttons, and click again where you want to drop the caption.</div><div class="note">An empty slide is required to be created when the video home option is being used. This slide is added to the home video &quot;view&quot; when it is being created.</div>
+<h1><a name="sec14_0">14</a> Creating Views<a class="top" href="#toc">top</a></h1>The OneUp theme features multiple custom views. A view is basically a dynamic element which collects data of some form and displays it in another form. The following are examples of views. These will be described in more detail later in this section. 
+<br/>
+<ol style="list-style-type: decimal">
+	<li>Portfolio grid<br/>
+	</li>
+	<li>Slider<br/>
+	</li>
+	<li>Carousel<br/>
+	</li>
+	<li>Reusable Layout Element<br/>
+	</li>
+	<li>Gallery + Lightbox<br/>
+	</li>
+	<li>Blog</li>
+</ol>
+To create a view you must first specify 2 important characteristics. What kind of data will be used in this view, meaning where will its content come from, and then how will this content be displayed. Depending on what type of content is selected, the possibilities for displaying this content will change. In the OneUp theme, the following is a list of content sources for views:<br/>
+<br>
+<ol style="list-style-type: decimal">
+	<li>Posts<br/>
+	</li>
+	<li>Pages<br/>
+	</li>
+	<li>Media<br/>
+	</li>
+	<li>Videos<br/>
+	</li>
+	<li>Projects<br/>
+	</li>
+	<li>Staff Members<br/>
+	</li>
+	<li>Services<br/>
+	</li>
+	<li>Testimonials<br/>
+	</li>
+	<li>Logos<br/>
+	</li>
+	<li>Slides<br/>
+	</li>
+	<li>Gallery<br/>
+	</li>
+	<li>Layout*</li>
+</ol>
+This fill list may not be initially available to you when you have installed the theme. Before elements will appear on this list and hence be available for use in a view, they must first be created. This means for example that it will not be possible to use projects in a view until at least one project has already been created.<div class="note">The Layout elements on that list is a special elements and will be dealt with separately later in this section.</div>
+<h2><a name="sec14_1">14.1</a> Views - Slider (Volo)</h2>
+<br/>
+This view is used to create a slider. The slider has a single side to side swipe transition. Images in this slider area arranged on a sort of a carousel wheel arrangement and once the final image has been reaches, the images scroll quickly back to the first image. The parameters available for this view are as follows:<br/>
+<br>
+<br/>
+<br>
+<b>Input data = Gallery</b>
+<img src="shots/mboxes/views/input.data.gallery.png" alt="[input.data.gallery.png]" title="" />
+<table><tr><td class="option">Use Gallery</td><td class="value">Select the gallery (created previously) from which you would like to use to define the slider&#39;s content.<td></tr><tr><td class="option">Link</td><td class="value"><b>Custom</b> - This means that the link on the image will be that link set in the &quot;Gallery Image Settings&quot;, accessible via the edit gallery page. (edit image icon on each gallery thumbnail).<br/>
+<b>Attachment</b> - This will overwrite any link set via the &quot;Gallery Image Settings&quot; page and instead the image will automatically receive a link to the original version of itself, prior to resizing. This way you may display large versions of images in a lightbox.<td></tr></table><b>Input data = Posts</b>
+<img src="shots/mboxes/views/input.data.posts.png" alt="[input.data.posts.png]" title="" />
+<table><tr><td class="option">Max</td><td class="value">Set the maximum amount of posts to be shown. Leave this field empty for unlimited posts.<td></tr><tr><td class="option">Selection</td><td class="value">Use this control to manually pick posts to be included in the view.<td></tr><tr><td class="option">Categories</td><td class="value">Includes items in the view only from the selected categories.<td></tr><tr><td class="option">Tags</td><td class="value">Includes items in the view only featuring the selected tags.<td></tr><tr><td class="option">Format</td><td class="value">Includes items in the view which correspond to the selected format.<td></tr></table><b>Slider Settings</b>
+<img src="shots/mboxes/views/view.slider.volo.png" alt="[view.slider.volo.png]" title="" />
+<table><tr><td class="option">Delay</td><td class="value">Time in seconds before the slider rotates to the next slide.<td></tr><tr><td class="option">Layout</td><td class="value"><b>Boxed</b> - A boxed slider behaves like a responsive image and resizes to fit the available space.<br/>
+<b>Full Width</b> - A full width slider always full the full available width and upscales the images if they are smaller then the slider area.<td></tr></table><b>Slider Link Settings</b>
+<img src="shots/mboxes/views/settings.link.png" alt="[settings.link.png]" title="" />
+<table><tr><td class="option">Type</td><td class="value"><b>Auto</b> - Automatically sets a slide link, for example is the input data is &quot;posts&quot; then clicking on the slide will take the user to the full post.<br/>
+<b>Fixed</b> - Set a custom link for all slides.<br/>
+<b>None</b> - Disables slide links.<td></tr><tr><td class="option">Fixed Link</td><td class="value">Enter the fixed link here for all slides. (if chosen from the above options)<td></tr></table><b>Caption Settings</b>
+<img src="shots/mboxes/views/settings.caption.png" alt="[settings.caption.png]" title="" />
+<table><tr><td class="option">Title</td><td class="value"><b>None</b> - No caption title.<br/>
+<b>Post Title</b> - Use post title without linking to the post.<br/>
+<b>Post Title with Link</b> - Use post title with a link to the post.<td></tr><tr><td class="option">Description</td><td class="value"><b>None</b> - No description.<br/>
+<b>Post Excerpt</b> - Use the post excerpt as the description.<br/>
+<b>Post Content</b> - Use the post content as the description.<td></tr></table>
+<h2><a name="sec14_2">14.2</a> Views - Slider (Vista)</h2>
+<br/>
+<br>
+<br/>
+This view is used to create a slider. The slider has a zoom/pan transition, similar to an effect known as the &quot;Ken Burns Effect&quot;. The parameters available for this view are as follows:<br/>
+<br>
+<b>Slider Settings</b>
+<img src="shots/vista.jpg" alt="[vista.jpg]" title="" />
+<table><tr><td class="option">Transition</td><td class="value">Choose between the pan/zoom or the fade transitions. (The fade transition is included originally as a fallback).<td></tr><tr><td class="option">Fade Duration</td><td class="value">This is the length of time in seconds taken for one image to fade to the next image.<td></tr><tr><td class="option">Animation Time</td><td class="value">This is the time taken in seconds for the image to zoom and pan. The higher the figure, the slower the image&#39;s movement will be.<td></tr><tr><td class="option">Delay</td><td class="value">Time in seconds before the slider rotates to the next slide.<td></tr><tr><td class="option">Layout</td><td class="value"><b>Boxed</b> - A boxed slider behaves like a responsive image and resizes to fit the available space.<br/>
+<b>Full Width</b> - A full width slider always full the full available width and upscales the images if they are smaller then the slider area.<td></tr></table><b>Slider Link Settings</b>
+<img src="shots/mboxes/views/settings.link.png" alt="[settings.link.png]" title="" />
+<table><tr><td class="option">Type</td><td class="value"><b>Auto</b> - Automatically sets a slide link, for example is the input data is &quot;posts&quot; then clicking on the slide will take the user to the full post.<br/>
+<b>Fixed</b> - Set a custom link for all slides.<br/>
+<b>None</b> - Disable slide links.<td></tr></table><b>Caption Settings</b>
+<img src="shots/mboxes/views/settings.caption.png" alt="[settings.caption.png]" title="" />
+<table><tr><td class="option">Title</td><td class="value"><b>None</b> - No caption title.<br/>
+<b>Post Title</b> - Use post title without linking to the post.<br/>
+<b>Post Title with Link</b> - Use post title with a link to the post.<td></tr><tr><td class="option">Description</td><td class="value"><b>None</b> - No description.<br/>
+<b>Post Excerpt</b> - Use the post excerpt as the description.<br/>
+<b>Post Content</b> - Use the post content as the description.<td></tr></table>
+<h2><a name="sec14_3">14.3</a> Views - Slider (Vario)</h2>
+<br/>
+<br>
+<br/>
+This view is used to create a slider. The slider has multiple CSS animated captions and image transitions. This view can also play video slides. The parameters available for this view are as follows:<br/>
+<br>
+<br/>
+<br>
+<b>Input data = Gallery</b>
+<img src="shots/mboxes/views/input.data.gallery.png" alt="[input.data.gallery.png]" title="" />
+<table><tr><td class="option">Use Gallery</td><td class="value">Select the gallery (created previously) from which you would like to use to define the slider&#39;s content.<td></tr><tr><td class="option">Link</td><td class="value"><b>Custom</b> - This means that the link on the image will be that link set in the &quot;Gallery Image Settings&quot;, accessible via the edit gallery page. (edit image icon on each gallery thumbnail).<br/>
+<b>Attachment</b> - This will overwrite any link set via the &quot;Gallery Image Settings&quot; page and instead the image will automatically receive a link to the original version of itself, prior to resizing. This way you may display large versions of images in a lightbox.<td></tr></table><b>Input data = Posts</b>
+<img src="shots/mboxes/views/input.data.posts.png" alt="[input.data.posts.png]" title="" />
+<table><tr><td class="option">Max</td><td class="value">Set the maximum amount of posts to be shown. Leave this field empty for unlimited posts.<td></tr><tr><td class="option">Selection</td><td class="value">Use this control to manually pick posts to be included in the view.<td></tr><tr><td class="option">Categories</td><td class="value">Includes items in the view only from the selected categories.<td></tr><tr><td class="option">Tags</td><td class="value">Includes items in the view only featuring the selected tags.<td></tr><tr><td class="option">Format</td><td class="value">Includes items in the view which correspond to the selected format.<td></tr></table><b>Slider Settings</b>
+<img src="shots/mboxes/views/view.slider.vario.png" alt="[view.slider.vario.png]" title="" />
+<table><tr><td class="option">Transition</td><td class="value">Select the type of transition for this slide.<td></tr><tr><td class="option">Background</td><td class="value">Use the sliders image as the background or a video. This option is used when the slides are mainly holding animated caption data and the background for the slider is to be a looping video clip.<td></tr><tr><td class="option">Video</td><td class="value">If &quot;Video&quot; is selected in the above option, this is where the video source file should be specified. The video must be uploaded in both .ogv and .mp4 video formats. Both versions must have exactly the same name, but with different file formats. Eg. &quot;clip.ogv&quot; and &quot;clip.mp4&quot;<td></tr><tr><td class="option">Loop</td><td class="value">If enabled, the video plays again from the start once playback ends.<td></tr><tr><td class="option">Fallback</td><td class="value">Here you can insert/upload an image which will be shown in old browsers which lack native video support, such as old versions of Internet Explorer.<td></tr><tr><td class="option">Delay</td><td class="value">Time in seconds before the slider rotates to the next slide.<td></tr><tr><td class="option">Layout</td><td class="value"><b>Boxed</b> - A boxed slider behaves like a responsive image and resizes to fit the available space.<br/>
+<b>Full Width</b> - A full width slider always full the full available width and upscales the images if they are smaller then the slider area.<td></tr></table><b>Slider Link Settings</b>
+<img src="shots/mboxes/views/settings.link.png" alt="[settings.link.png]" title="" />
+<table><tr><td class="option">Type</td><td class="value"><b>Auto</b> - Automatically sets a slide link, for example is the input data is &quot;posts&quot; then clicking on the slide will take the user to the full post.<br/>
+<b>Fixed</b> - Set a custom link for all slides.<br/>
+<b>None</b> - Disable slide links.<td></tr></table><b>Caption Settings</b>
+<img src="shots/mboxes/views/settings.caption.png" alt="[settings.caption.png]" title="" />
+<table><tr><td class="option">Title</td><td class="value"><b>None</b> - No caption title.<br/>
+<b>Post Title</b> - Use post title without linking to the post.<br/>
+<b>Post Title with Link</b> - Use post title with a link to the post.<td></tr><tr><td class="option">Description</td><td class="value"><b>None</b> - No description.<br/>
+<b>Post Excerpt</b> - Use the post excerpt as the description.<br/>
+<b>Post Content</b> - Use the post content as the description.<td></tr></table>
+<h2><a name="sec14_4">14.4</a> Views - Gallery + Lightbox (Grid)</h2>
+<br/>
+This view is used to create a grid based gallery of images which open in a lightbox gallery when any one of the grid thumbnails is clicked. The grid will be in the form of a masonry layout. This means all images will have the same widths but may have differing height values. The parameters available for this view are as follows:<br/>
+<br>
+<br/>
+<br>
+<b>Input data = Gallery</b>
+<img src="shots/mboxes/views/input.data.gallery.png" alt="[input.data.gallery.png]" title="" />
+<table><tr><td class="option">Use Gallery</td><td class="value">Select the gallery (created previously) from which you would like to use to define the slider&#39;s content.<td></tr><tr><td class="option">Link</td><td class="value"><b>Custom</b> - This means that the link on the image will be that link set in the &quot;Gallery Image Settings&quot;, accessible via the edit gallery page. (edit image icon on each gallery thumbnail).<br/>
+<b>Attachment</b> - This will overwrite any link set via the &quot;Gallery Image Settings&quot; page and instead the image will automatically receive a link to the original version of itself, prior to resizing. This way you may display large versions of images in a lightbox.<td></tr></table><b>Input data = Posts</b>
+<img src="shots/mboxes/views/input.data.posts.png" alt="[input.data.posts.png]" title="" />
+<table><tr><td class="option">Max</td><td class="value">Set the maximum amount of posts to be shown. Leave this field empty for unlimited posts.<td></tr><tr><td class="option">Selection</td><td class="value">Use this control to manually pick posts to be included in the view.<td></tr><tr><td class="option">Categories</td><td class="value">Includes items in the view only from the selected categories.<td></tr><tr><td class="option">Tags</td><td class="value">Includes items in the view only featuring the selected tags.<td></tr><tr><td class="option">Format</td><td class="value">Includes items in the view which correspond to the selected format.<td></tr></table><b>Gallery Grid Settings</b>
+<img src="shots/mboxes/views/view.gallery.grid.png" alt="[view.gallery.grid.png]" title="" />
+<table><tr><td class="option">Filter by</td><td class="value">Shows filters for the grid images based on the selection made. Filters allow users to reduce the number of thumbnails displayed by narrowing the topic to which the displayed thumbnails are related.<td></tr><tr><td class="option">Layout</td><td class="value">The layout of the grid of images. <b>Boxed</b> - The grid will be restricted to a maximum width of 940px. The actual width of the grid may be much smaller than this, it will depend on its containing element.<br/>
+<b>Full Width</b> - The grid will fill the full available width within the browser (provided a full width page is also selected).<td></tr><tr><td class="option">Thumbnail Width</td><td class="value">Here the width of the grid module is specified. This will determine the number of columns of images displayed in the grid. The the boxed grid situation ideally the width of the grid&#39;s containing element should be equally divisible by the figure entered here. While in the case of the full width grid, the standard screen resolutions width values should be equally revisable by the figure entered here.<td></tr><tr><td class="option">Thumbnail Height</td><td class="value">The images in this grid may be forced to all adopt a fixed height, essentially turning the grid into a regular format and not a masonry format. Use this setting to specify this fixed height. Leave this field empty to allow each image to use its own height figure.<td></tr><tr><td class="option">Lightbox Gallery Transition</td><td class="value">Set the image transition. <b>Slide</b> - The images slide left to right while fading out. <b>Shutter</b> - The images transition using a black and white to color effect plus a zooming effect.<td></tr><tr><td class="option">Scale Mode</td><td class="value">Set the way image scaling is handled. 
+<b>Fit</b> - No matter the size of the image it will be shown in full on screen and surrounded by black space. No cropping will occur. 
+<b>Fill</b> - The Image will be resized so that it fills the screen. Depending on the image aspect ration and that of the screen, the image may be cropped. 
+<b>Max</b> - There is a max version of both Fit and Fill, which basically means that if the image is small, upscaling is permitted if required. So basically the image will be shown at its largest possible size, even if it is needed to be scaled up. Should the image have a small resolution and the user have a large screen, some pixelation of the image may result.<td></tr></table><b>Caption Settings</b>
+<img src="shots/mboxes/views/settings.link.png" alt="[settings.link.png]" title="" />
+<table><tr><td class="option">Title</td><td class="value"><b>None</b> - No caption title.<br/>
+<b>Post Title</b> - Use post title without linking to the post.<br/>
+<b>Post Title with Link</b> - Use post title with a link to the post.<td></tr><tr><td class="option">Description</td><td class="value"><b>None</b> - No description.<br/>
+<b>Post Excerpt</b> - Use the post excerpt as the description.<br/>
+<b>Post Content</b> - Use the post content as the description.<td></tr></table>
+<h2><a name="sec14_5">14.5</a> Views - Gallery + Lightbox (Cover)</h2>
+<br/>
+This view is used to create a gallery of images displayed as a single cover image. This cover once clicked opens all images in the gallery in a lightbox. The parameters available for this view are as follows:<br/>
+<br>
+<br/>
+<br>
+<b>Input data = Gallery</b>
+<img src="shots/mboxes/views/input.data.gallery.png" alt="[input.data.gallery.png]" title="" />
+<table><tr><td class="option">Use Gallery</td><td class="value">Select the gallery (created previously) from which you would like to use to define the slider&#39;s content.<td></tr><tr><td class="option">Link</td><td class="value"><b>Custom</b> - This means that the link on the image will be that link set in the &quot;Gallery Image Settings&quot;, accessible via the edit gallery page. (edit image icon on each gallery thumbnail).<br/>
+<b>Attachment</b> - This will overwrite any link set via the &quot;Gallery Image Settings&quot; page and instead the image will automatically receive a link to the original version of itself, prior to resizing. This way you may display large versions of images in a lightbox.<td></tr></table><b>Input data = Posts</b>
+<img src="shots/mboxes/views/input.data.posts.png" alt="[input.data.posts.png]" title="" />
+<table><tr><td class="option">Max</td><td class="value">Set the maximum amount of posts to be shown. Leave this field empty for unlimited posts.<td></tr><tr><td class="option">Selection</td><td class="value">Use this control to manually pick posts to be included in the view.<td></tr><tr><td class="option">Categories</td><td class="value">Includes items in the view only from the selected categories.<td></tr><tr><td class="option">Tags</td><td class="value">Includes items in the view only featuring the selected tags.<td></tr><tr><td class="option">Format</td><td class="value">Includes items in the view which correspond to the selected format.<td></tr></table><b>Gallery Cover Settings</b>
+<img src="shots/mboxes/views/view.gallery.cover.png" alt="[view.gallery.cover.png]" title="" />
+<table><tr><td class="option">Lightbox Gallery Transition</td><td class="value">Set the image transition. <b>Slide</b> - The images slide left to right while fading out. <b>Shutter</b> - The images transition using a black and white to color effect plus a zooming effect.<td></tr><tr><td class="option">Scale Mode</td><td class="value">Set the way image scaling is handled. 
+<b>Fit</b> - No matter the size of the image it will be shown in full on screen and surrounded by black space. No cropping will occur. 
+<b>Fill</b> - The Image will be resized so that it fills the screen. Depending on the image aspect ration and that of the screen, the image may be cropped. 
+<b>Max</b> - There is a max version of both Fit and Fill, which basically means that if the image is small, upscaling is permitted if required. So basically the image will be shown at its largest possible size, even if it is needed to be scaled up. Should the image have a small resolution and the user have a large screen, some pixelation of the image may result.<td></tr></table><b>Caption Settings</b>
+<img src="shots/mboxes/views/settings.caption.png" alt="[settings.caption.png]" title="" />
+<table><tr><td class="option">Title</td><td class="value"><b>None</b> - No caption title.<br/>
+<b>Post Title</b> - Use post title without linking to the post.<br/>
+<b>Post Title with Link</b> - Use post title with a link to the post.<td></tr><tr><td class="option">Description</td><td class="value"><b>None</b> - No description.<br/>
+<b>Post Excerpt</b> - Use the post excerpt as the description.<br/>
+<b>Post Content</b> - Use the post content as the description.<td></tr></table>
+<h2><a name="sec14_6">14.6</a> Views - Gallery + Lightbox (Images)</h2>
+<br/>
+This view is used to create a gallery of images displayed as full single image. Once any one of these images is clicked, all images in the gallery open in a lightbox. The parameters available for this view are as follows:<br/>
+<br>
+<br/>
+<br>
+<b>Input data = Gallery</b>
+<img src="shots/mboxes/views/input.data.gallery.png" alt="[input.data.gallery.png]" title="" />
+<table><tr><td class="option">Use Gallery</td><td class="value">Select the gallery (created previously) from which you would like to use to define the slider&#39;s content.<td></tr><tr><td class="option">Link</td><td class="value"><b>Custom</b> - This means that the link on the image will be that link set in the &quot;Gallery Image Settings&quot;, accessible via the edit gallery page. (edit image icon on each gallery thumbnail).<br/>
+<b>Attachment</b> - This will overwrite any link set via the &quot;Gallery Image Settings&quot; page and instead the image will automatically receive a link to the original version of itself, prior to resizing. This way you may display large versions of images in a lightbox.<td></tr></table><b>Input data = Posts</b>
+<img src="shots/mboxes/views/input.data.posts.png" alt="[input.data.posts.png]" title="" />
+<table><tr><td class="option">Max</td><td class="value">Set the maximum amount of posts to be shown. Leave this field empty for unlimited posts.<td></tr><tr><td class="option">Selection</td><td class="value">Use this control to manually pick posts to be included in the view.<td></tr><tr><td class="option">Categories</td><td class="value">Includes items in the view only from the selected categories.<td></tr><tr><td class="option">Tags</td><td class="value">Includes items in the view only featuring the selected tags.<td></tr><tr><td class="option">Format</td><td class="value">Includes items in the view which correspond to the selected format.<td></tr></table><b>Gallery Image Settings</b>
+<img src="shots/mboxes/views/view.gallery.images.png" alt="[view.gallery.images.png]" title="" />
+<table><tr><td class="option">Lightbox Gallery Transition</td><td class="value">Set the image transition. <b>Slide</b> - The images slide left to right while fading out. <b>Shutter</b> - The images transition using a black and white to color effect plus a zooming effect.<td></tr><tr><td class="option">Scale Mode</td><td class="value">Set the way image scaling is handled. 
+<b>Fit</b> - No matter the size of the image it will be shown in full on screen and surrounded by black space. No cropping will occur. 
+<b>Fill</b> - The Image will be resized so that it fills the screen. Depending on the image aspect ration and that of the screen, the image may be cropped. 
+<b>Max</b> - There is a max version of both Fit and Fill, which basically means that if the image is small, upscaling is permitted if required. So basically the image will be shown at its largest possible size, even if it is needed to be scaled up. Should the image have a small resolution and the user have a large screen, some pixelation of the image may result.<td></tr></table><b>Caption Settings</b>
+<img src="shots/mboxes/views/settings.caption.png" alt="[settings.caption.png]" title="" />
+<table><tr><td class="option">Title</td><td class="value"><b>None</b> - No caption title.<br/>
+<b>Post Title</b> - Use post title without linking to the post.<br/>
+<b>Post Title with Link</b> - Use post title with a link to the post.<td></tr><tr><td class="option">Description</td><td class="value"><b>None</b> - No description.<br/>
+<b>Post Excerpt</b> - Use the post excerpt as the description.<br/>
+<b>Post Content</b> - Use the post content as the description.<td></tr></table>
+<h2><a name="sec14_7">14.7</a> Views - Carousel</h2>
+<br/>
+This view is used to create a responsive carousel. This view can receive its content from a host of different post based sources. The number of columns or carousel items displayed at any one time (in normal resolutions) can be specified. Please note that the view itself decides how many to show when the website is in responsive mode. The parameters available for this view are as follows:<br/>
+<br>
+<b>Input data = Posts</b>
+<img src="shots/mboxes/views/input.data.posts.png" alt="[input.data.posts.png]" title="" />
+<table><tr><td class="option">Max</td><td class="value">Set the maximum amount of posts to be shown. Leave this field empty for unlimited posts.<td></tr><tr><td class="option">Selection</td><td class="value">Use this control to manually pick posts to be included in the view.<td></tr><tr><td class="option">Categories</td><td class="value">Includes items in the view only from the selected categories.<td></tr><tr><td class="option">Tags</td><td class="value">Includes items in the view only featuring the selected tags.<td></tr><tr><td class="option">Format</td><td class="value">Includes items in the view which correspond to the selected format.<td></tr></table><b>Carousel Settings</b>
+<img src="shots/carousel.jpg" alt="[carousel.jpg]" title="" />
+<table><tr><td class="option">Delay</td><td class="value">Time in seconds before the carousel rotates to the next item.<td></tr><tr><td class="option">Layout</td><td class="value">Specify the number of carousel items which will be displayed at one time (in normal desktop resolution). Note, the view will determine the number to display at smaller resolutions, such as on mobile devices.<td></tr><tr><td class="option">Image Height</td><td class="value">Enter the desired height of the image content of the carousel.<td></tr><tr><td class="option">Excerpt</td><td class="value">This is the excerpt length of the carousel unit&#39;s text content. The code will count up to this number of characters and then seek the closest whole word on which to finish the excerpt text. So if for example the carousel will hold posts, this would be used to only show a small amount of the post&#39;s text content in the carousel unit.<td></tr></table>
+<h2><a name="sec14_8">14.8</a> Views - Blog</h2>
+<br/>
+This view is used to create a blog. The blog view may be inserted anywhere and it&#39;s content can be filters. This means it can just as easily be used to insert a full bloc section into a theme or only a small portion of posts from a specific category or related to a specific tag etc. The parameters available for this view are as follows:<br/>
+<br>
+<br/>
+<br>
+<b>Input data = Posts</b>
+<img src="shots/mboxes/views/input.data.posts.png" alt="[input.data.posts.png]" title="" />
+<table><tr><td class="option">Max</td><td class="value">Set the maximum amount of posts to be shown. Leave this field empty for unlimited posts.<td></tr><tr><td class="option">Selection</td><td class="value">Use this control to manually pick posts to be included in the view.<td></tr><tr><td class="option">Categories</td><td class="value">Includes items in the view only from the selected categories.<td></tr><tr><td class="option">Tags</td><td class="value">Includes items in the view only featuring the selected tags.<td></tr><tr><td class="option">Format</td><td class="value">Includes items in the view which correspond to the selected format.<td></tr></table><b>Blog Settings</b>
+<img src="shots/blog-view-options.jpg" alt="[blog-view-options.jpg]" title="" />
+<table><tr><td class="option">Layout</td><td class="value">
+<b>Default</b> - This is the standard blog format consisting of post media being full width of the available container and the post content being shown underneath.<br/>
+<b>Search</b> - This is a compact arrangement which is used by default to show results from a search, when more content is need to be browsed at one time. Here the post media is small and side by side with the post content.<br/>
+<b>Alternative</b> - This layout consists of media and content being side by side, but the post media is wide, while the post content is narrow. This would be used when the blog is mostly about the media and not the text content.<td></tr><tr><td class="option">Show Media</td><td class="value">Determines whether the post media is shown or hidden.<td></tr><tr><td class="option">Paged Result</td><td class="value">If set to &quot;Yes&quot;, then any posts over the &quot;Max&quot; figure entered above will be accessible using pagination.<td></tr><tr><td class="option">Load More</td><td class="value">If the &quot;Paged Result&quot; option above is enabled and a value has been set in the &quot;Max&quot; field of the input data type, then this option, once enabled, will replace the default pager with a &quot;Load More&quot; button. This button will basically load more items and add them to the existing items using an ajax call, meaning the page will not need to reload as would be the case with the default pagination.<td></tr></table>
+<h2><a name="sec14_9">14.9</a> Views - Portfolio Grid</h2>
+<br/>
+This view is used to create a grid based arrangement of items, usually projects. The grid can be boxed or full width, may display content filters and can even have variable item cell sizes. The following are the available options for this view:<br/>
+<br>
+<br/>
+<b>Input data = Projects</b>
+<img src="shots/mboxes/views/input.data.projects.png" alt="[input.data.projects.png]" title="" />
+<table><tr><td class="option">Max</td><td class="value">Set the maximum amount of projects to be shown. Leave this field empty for unlimited posts.<td></tr><tr><td class="option">Selection</td><td class="value">Use this control to manually pick projects to be included in the view.<td></tr><tr><td class="option">Format</td><td class="value">Includes items in the view which correspond to the selected format.<td></tr><tr><td class="option">Project Tags</td><td class="value">Includes items in the view only featuring the selected project tags.<td></tr></table><b>Portfolio Grid Settings</b>
+<img src="shots/portfolio-view-grid-options.jpg" alt="[portfolio-view-grid-options.jpg]" title="" />
+<table><tr><td class="option">Filter by</td><td class="value">Shows filters for the grid images based on the selection made. Filters allow users to reduce the number of thumbnails displayed by narrowing the topic to which the displayed thumbnails are related.<td></tr><tr><td class="option">Use Lightbox</td><td class="value">If set to &quot;Yes&quot; clicking on an image thumbnail will open the item in a lightbox. &quot;No&quot; on the other hand will take the user directly to the item page itself once a click is registered.<td></tr><tr><td class="option">Layout</td><td class="value">The layout of the grid of images. <b>Boxed</b> - The grid will be restricted to a maximum width of 940px. The actual width of the grid may be much smaller than this, it will depend on its containing element.<br/>
+<b>Full Width</b> - The grid will fill the full available width within the browser (provided a full width page is also selected).<td></tr><tr><td class="option">Cell Width</td><td class="value">Here the width of the grid cell module is specified. This will determine the number of columns of images displayed in the grid. The the boxed grid situation ideally the width of the grid&#39;s containing element should be equally divisible by the figure entered here. While in the case of the full width grid, the standard screen resolutions width values should be equally divisible by the figure entered here.<td></tr><tr><td class="option">Cell Height</td><td class="value">Here the width of the grid cell module is specified.<td></tr><tr><td class="option">Cell Layout</td><td class="value"><b>Fixed</b> - All grid cells with be forced to adopt the cell width and height defined in the 2 settings immediately above.<br/>
+<b>Variable</b> - All cells will ignore the above settings and their cells will be sized based on the cell sizes entered in individual project pages.<td></tr><tr><td class="option">Horizontal Margin</td><td class="value">This is the gap (in pixels) on the left and right hand side of each grid thumbnail.<td></tr><tr><td class="option">Vertical Margin</td><td class="value">This is the gap (in pixels) on the top and bottom of each grid thumbnail.<td></tr><tr><td class="option">Sorting</td><td class="value"><b>None</b> - Use this setting when all grid items have the same size, items will then be sorted in chronological order, the order in which they were created.<br/>
+<b>Auto</b> - Use this setting when cells have varying sizes, the grid will then attempt to auto adjust the cell arrangement to find a neat layout.<td></tr><tr><td class="option">Paged Result</td><td class="value">If set to &quot;Yes&quot;, then any projects over the &quot;Max&quot; figure entered above will be accessible using pagination at the bottom of the grid.<td></tr><tr><td class="option">Load More</td><td class="value">If the &quot;Paged Result&quot; option above is enabled and a value has been set in the &quot;Max&quot; field of the input data type, then this option, once enabled, will replace the default pager with a &quot;Load More&quot; button. This button will basically load more items and add them to the existing items using an ajax call, meaning the page will not need to reload as would be the case with the default pagination.<td></tr></table>
+<h2><a name="sec14_10">14.10</a> Views - Portfolio Preview</h2>
+<br/>
+This view is used to create a grid based arrangement of items, usually projects. The grid can be boxed or full width, may display content filters and can even have variable item cell sizes. The difference between this view and the portfolio Grid view is that this view loads a preview of the project using ajax (without page reload) when selected from the grid of thumbnails. The project preview scrolls into view from the right, while the grid of thumbnails scrolls out to the left. The following are the available options for this view:<br/>
+<br>
+<br/>
+<b>Input data = Projects</b>
+<img src="shots/mboxes/views/input.data.projects.png" alt="[input.data.projects.png]" title="" />
+<table><tr><td class="option">Max</td><td class="value">Set the maximum amount of projects to be shown. Leave this field empty for unlimited posts.<td></tr><tr><td class="option">Selection</td><td class="value">Use this control to manually pick projects to be included in the view.<td></tr><tr><td class="option">Format</td><td class="value">Includes items in the view which correspond to the selected format.<td></tr><tr><td class="option">Project Tags</td><td class="value">Includes items in the view only featuring the selected project tags.<td></tr></table><b>Portfolio Preview Settings</b>
+<img src="shots/portfolio-view-options.jpg" alt="[portfolio-view-options.jpg]" title="" />
+<table><tr><td class="option">Filter by</td><td class="value">Shows filters for the grid images based on the selection made. Filters allow users to reduce the number of thumbnails displayed by narrowing the topic to which the displayed thumbnails are related.<td></tr><tr><td class="option">Use Lightbox</td><td class="value">If set to &quot;Yes&quot; clicking on an image thumbnail will open the item in a lightbox. &quot;No&quot; on the other hand will take the user directly to the item page itself once a click is registered.<td></tr><tr><td class="option">Layout</td><td class="value">The layout of the grid of images. <b>Boxed</b> - The grid will be restricted to a maximum width of 940px. The actual width of the grid may be much smaller than this, it will depend on its containing element.<br/>
+<b>Full Width</b> - The grid will fill the full available width within the browser (provided a full width page is also selected).<td></tr><tr><td class="option">Cell Width</td><td class="value">Here the width of the grid cell module is specified. This will determine the number of columns of images displayed in the grid. The the boxed grid situation ideally the width of the grid&#39;s containing element should be equally divisible by the figure entered here. While in the case of the full width grid, the standard screen resolutions width values should be equally divisible by the figure entered here.<td></tr><tr><td class="option">Cell Height</td><td class="value">Here the width of the grid cell module is specified.<td></tr><tr><td class="option">Cell Layout</td><td class="value"><b>Fixed</b> - All grid cells with be forced to adopt the cell width and height defined in the 2 settings immediately above.<br/>
+<b>Variable</b> - All cells will ignore the above settings and their cells will be sized based on the cell sizes entered in individual project pages.<td></tr><tr><td class="option">Horizontal Margin</td><td class="value">This is the gap (in pixels) on the left and right hand side of each grid thumbnail.<td></tr><tr><td class="option">Vertical Margin</td><td class="value">This is the gap (in pixels) on the top and bottom of each grid thumbnail.<td></tr><tr><td class="option">Sorting</td><td class="value"><b>None</b> - Use this setting when all grid items have the same size, items will then be sorted in chronological order, the order in which they were created.<br/>
+<b>Auto</b> - Use this setting when cells have varying sizes, the grid will then attempt to auto adjust the cell arrangement to find a neat layout.<td></tr><tr><td class="option">Paged Result</td><td class="value">If set to &quot;Yes&quot;, then any projects over the &quot;Max&quot; figure entered above will be accessible using pagination at the bottom of the grid.<td></tr><tr><td class="option">Load More</td><td class="value">If the &quot;Paged Result&quot; option above is enabled and a value has been set in the &quot;Max&quot; field of the input data type, then this option, once enabled, will replace the default pager with a &quot;Load More&quot; button. This button will basically load more items and add them to the existing items using an ajax call, meaning the page will not need to reload as would be the case with the default pagination.<td></tr></table>
+<h1><a name="sec15_0">15</a> Page Builder<a class="top" href="#toc">top</a></h1>The OneUp theme features a page builder. This features basically allows you to create the layout and choose the content of your pages without the need for touching code or using page templates. Instead now you can choose from a set of modular pre-made blocks, which can be mixed and matched in a limitless numbers of ways.  These blocks can be used to compose content on the spot just like with the normal WordPress editor or to insert pre-made views (See view section for more info). Each block has a host of options, which we will examine in this section.<br/>
+<br>
+<img src="shots/blocks.jpg" alt="[blocks.jpg]" title="" />
+<br/>
+To find the Page Builder you go to <b>Pages &gt; Add New</b> and then in the <b>Page Attributes</b> sidebar dialog, set the <b>Template</b> field to <b>Content Builder</b>. Now you will see the default WP editor disappear and get replaced with the Page Builder module. To get started building your page layout, give the page a name and then click the <b>Add New Block</b> button.<br/>
+<br>
+<br/>
+<h2><a name="sec15_1">15.1</a> Page Builder - The Splash Page</h2>
+<br/>
+The OneUp theme is designed to function as a one page theme which has a fullscreen splash page section, seen first when the website loads. This section is not included as a reusable block like the other section but instead it&#39;s part of the content builder page. This means that it may feature only once for each page built using the content builder. This section can be found immediately below the page builder area entitled &quot;Home Page Settings&quot;. Once the &quot;Splash Page&quot; option found there is set to &quot;Yes&quot;, the following options appear:<br/>
+<br>
+<img src="shots/splash.jpg" alt="[splash.jpg]" title="" />
+<br/>
+<table><tr><td class="option">Menu</td><td class="value">Set the menu and header area on the homepage to transparent and the whole header section will not becomes visible until the user begin to scroll down.<td></tr><tr><td class="option">Slider</td><td class="value">Choose the slider view which should be used for this splash page. This slider should be made first before it will appear in this list. A video is inserted here in the same way.<td></tr><tr><td class="option">Logo</td><td class="value">Upload here the image you wish to use as the logo which will be seen centered in this page.<td></tr><tr><td class="option">Label</td><td class="value">This is the Text label which is shown once the user hovers over the logo on this splash page section.<td></tr><tr><td class="option">Link</td><td class="value">When the user clicks the logo, this is the destination url. Here you can enter either an external url or a page section ID. If you use a section ID, then the page will scroll to this section once the logo is clicked.<td></tr><tr><td class="option">Taglines</td><td class="value">Here you can write the taglines which will appear one at a time under the logo on the splash page. You can use whatever number you wish. The entered taglines will appear under this options and you can drag and drop them top arrange the order.<td></tr><tr><td class="option">Min Height</td><td class="value">Use this value to limit how small the splash screen section may become. This can be useful in mobile devices where due to the responsive nature of the theme, the splash area can become too small in height leaving no room for the splash logo/headlines.<td></tr><tr><td class="option">Max Height</td><td class="value">Use this option is you wish to limit the height of the splash area so that it doesn&#39;t fill the home screen (default).<td></tr><tr><td class="option">Logo Offset</td><td class="value">Use this options to offset the splash page logo vertically.<td></tr></table>
+<h2><a name="sec15_2">15.2</a> Page Builder - Background Video Settings</h2>
+<br/>
+The OneUp theme supports the use of background fullscreen video clips imported from youtube. This section found underneath the splash page settings area, controls this feature. This feature is available in page builder pages only. The video background if enabled, will have a fixed position, which means that it will remain in the background irrespective of how the page&#39;s content scrolls. If some sections in the page have a transparent background, this can give rise to some interesting visual effects. The settings available in this feature are as follows:<br/>
+<br>
+<img src="shots/youtube_bg.jpg" alt="[youtube_bg.jpg]" title="" />
+<br/>
+<table><tr><td class="option">Use YouTube Video</td><td class="value">Enable/Disable the background Youtube video feature.<td></tr><tr><td class="option">YouTube Videos</td><td class="value">Here You insert the link to the Youtube video(s) you wish to play in the background. Multiple videos can be inserted using this control, in which case when one video finishes, the next one will begin. If only one video is inserted, this video will automatically loop.<td></tr><tr><td class="option">Fallback Image</td><td class="value">Auto-play background video is not supported by many mobile devices/operating systems. In these cases a fallback image is required to be used. Insert here the image you wish to show in these devices. This would normally be a screen capture from the video clip.<td></tr></table><div class="note">Once this feature has been enabled, any sections in the same page which use the &quot;Default&quot; setting for background, will become transparent. This means that that section&#39;s content will be viewed with a video in the background. To remove the effect, simply set a background color for that section explicitly. The footer section&#39;s background automatically becomes transparent.</div><b>To set a video background splash area:</b>
+<br/>
+<ol style="list-style-type: decimal">
+	<li>Create an empty slide item using the &quot;Slides&quot; custom post type in the main WP admin menu.<br/>
+	</li>
+	<li>Create a transparent Slider View, using the &quot;Views&quot; custom post type in the main WP menu.<br/>
+	</li>
+	<li>In this slider view, set the input data as &quot;Slides&quot; and insert only the empty slide created above.<br/>
+	</li>
+	<li>Set the output as &quot;Slider - Vario&quot; and name the slider something like &quot;Transparent Slider&quot; and publish the view.<br/>
+	</li>
+	<li>No in the page where you wish to use the video bg, in the splash settings below the page builder, set the splash to Yes, select the Transparent Slider as the &quot;Slider&quot; for this splash section.<br/>
+	</li>
+	<li>Now, provided you have inserted a video into the background video settings box, located just beneath the splash settings box, then the background video should now be displaying.</li>
+</ol>
+<br/>
+<h2><a name="sec15_3">15.3</a> Page Builder - The Section Block</h2>
+<br/>
+This block we will look at separately because the section block is the structure of the single page layout. Each section in the one page layout must be wrapped in a &quot;Section&quot; block. Other blocks are essentially inserted into this block. To add blocks to this section, click the green &quot;+&quot; icon at the bottom of the empty field. This will bring up a list of available blocks to add.<br/>
+<br>
+<img src="shots/section-block.jpg" alt="[section-block.jpg]" title="" />
+<br/>
+The section block allows a unique identifier to be specified which means that the section may be targeted from the site&#39;s main menu. The block also provides a host of background options which allows each section to be styled completely differently.  The following parameters/options are available in this block.<br/>
+<br>
+<table><tr><td class="option">Title</td><td class="value">Enter the title of the section. This will be displayed above the section and will be centrally aligned. Leave this empty to hide the section&#39;s title block.<td></tr><tr><td class="option">Link Name</td><td class="value">This is a unique identifier for this section. This title should be entered into the menu items in order to scroll to this section. See the main menu section for more info.<td></tr><tr><td class="option">Style</td><td class="value">This control basically inverts the colors of elements in the section. If the back ground color will be dark, then the dark option should be selected. This will make the typography and other content&#39;s styling appropriate for a dark background.<td></tr><tr><td class="option">Top Padding</td><td class="value">Enter the amount of padding required for the top of this section. Padding is the space between the beginning of the section&#39;s background and the content contained within that section.<td></tr><tr><td class="option">Bottom Padding</td><td class="value">Enter the amount of bottom padding required.<td></tr><tr><td class="option">Background</td><td class="value">Choose how the background of this section will be treated.<br/>
+<b>Default</b> - This will result in a white background.<br/>
+<b>Color</b> - Using a color picker you can choose the color to be applied. This option also includes another option which appears below entitled: <b>BG Alpha</b> - this basically allows you to add an opacity to the background color.<br/>
+<b>Image</b> - Using this option you can specify an image to be used as the section background. Once selected, additional options appear below which allow the alignment of that image to be manipulated. These options are self-explanatory apart from the Parallax&quot; option, which allows the image to scroll with the page, but slightly slower, which results in an interesting visual effect and creates a sense of depth.<br/>
+<b>Image + Color</b> - Allows both Color and Images settings to be applied at the same time.<td></tr></table><b>The following is an explanation of all remaining block types available and their associated settings.</b>
+<br/>
+<br>
+<br/>
+<h2><a name="sec15_4">15.4</a> Page Builder - Text Block</h2>
+<br/>
+Use this block to add simple text content to your layout. Simple HTML markup is also supported. The WordPress editor may be used to create this text by clicking the &#39;Edit with the HTML Editor&#39; link located just under the input field. Parameters available for this block are as follows:<br/>
+<br>
+<img src="shots/mboxes/builder/text.png" alt="[text.png]" title="" />
+<br/>
+<table><tr><td class="option">Content</td><td class="value">Insert here your desired text content. If you wish to avail of the standard WordPress editor you can get to this by clicking the &#39;Edit with the HTML Editor&#39; link located just under the input field.<td></tr></table>
+<h2><a name="sec15_5">15.5</a> Page Builder - Video Block</h2>
+<br/>
+Use this block to add a video to your layout. Videos inserted using this control need to be created previously. Parameters available for this block are as follows:<br/>
+<br>
+<img src="shots/mboxes/builder/video.png" alt="[video.png]" title="" />
+<br/>
+<table><tr><td class="option">Video</td><td class="value">Select your desired video from the list of available videos. For a video to appear in this list it must first be created using the &quot;video&quot; custom post type.<td></tr><tr><td class="option">Margins</td><td class="value">By default all blocks will have a bottom margin to ensure there will be some visual separation from the following content block. However sometimes this bottom margin is not required. In these cases set this control to &quot;No&quot; and this bottom margin will be removed.<td></tr></table>
+<h2><a name="sec15_6">15.6</a> Page Builder - View Block</h2>
+<br/>
+Use this block to add a view to your layout, these include, portfolio grids, slider and carousels. Views need to be created previously. Parameters available for this block are as follows:<br/>
+<br>
+<img src="shots/mboxes/builder/view.png" alt="[view.png]" title="" />
+<br/>
+<table><tr><td class="option">View</td><td class="value">Choose the desired view from the list of available views. For a view to appear in this list it must first be created using the &quot;Views&quot; custom post type.<td></tr><tr><td class="option">Margins</td><td class="value">By default all blocks will have a bottom margin to ensure there will be some visual separation from the following content block. However sometimes this bottom margin is not required. In these cases set this control to &quot;No&quot; and this bottom margin will be removed.<td></tr><tr><td class="option">Media Width</td><td class="value">This setting can be used to force the view to a specified width. Leave this field blank to use the view&#39;s default width.<td></tr><tr><td class="option">Media Height</td><td class="value">This setting can be used to force the view to a specified height. Leave this field blank to use the view&#39;s default height.<td></tr></table>
+<h2><a name="sec15_7">15.7</a> Page Builder - Services Block</h2>
+<br/>
+Use this block to add a services module to your layout. A services module consists of a carousel of service items. Service items are created separately. Parameters available for this block are as follows:<br/>
+<br>
+<img src="shots/services.jpg" alt="[services.jpg]" title="" />
+<br/>
+<table><tr><td class="option">Columns</td><td class="value">Enter the number of service items to be shown at any one time in the desktop resolution.<td></tr><tr><td class="option">Services</td><td class="value">Choose the desired service to add to this section from the list of available services. After selecting from the list, click &quot;Add New&quot;. Repeat this process for all services you wish to add. Failing to select any services items specifically, will mean at all items are inserted. In this case the sequence of items will correspond to that in which they were created.<td></tr></table>
+<h2><a name="sec15_8">15.8</a> Page Builder - Staff Block</h2>
+<br/>
+Use this block to add a staff member profiles to your layout. Parameters available for this block are as follows:<br/>
+<br>
+<img src="shots/staff.jpg" alt="[staff.jpg]" title="" />
+<br/>
+<table><tr><td class="option">Columns</td><td class="value">Enter the number of service items to be shown at any one time in the desktop resolution.<td></tr><tr><td class="option">Staff</td><td class="value">Choose the desired staff members to add to this section from the list of those created. After selecting from the list, click &quot;Add New&quot;. Repeat this process for all staff members you wish to add. Failing to select any staff items specifically, will mean at all items are inserted. In this case the sequence of items will correspond to that in which they were created.<td></tr></table>
+<h2><a name="sec15_9">15.9</a> Page Builder - Testimonials Block</h2>
+<br/>
+Use this block to add testimonials to your layout. Parameters available for this block are as follows:<br/>
+<br>
+<img src="shots/testimonials.jpg" alt="[testimonials.jpg]" title="" />
+<br/>
+<table><tr><td class="option">Testimonials</td><td class="value">Choose the desired testimonial to add to this section from the list of available testimonials. After selecting from the list, click &quot;Add New&quot;. Repeat this process for all Testimonials you wish to add. Failing to select any items specifically, will mean at all items are inserted. In this case the sequence of items will correspond to that in which they were created.<td></tr></table>
+<h2><a name="sec15_10">15.10</a> Page Builder - Call To Action Block</h2>
+<br/>
+Use this block to add a &quot;call to action&quot; banner/section to your layout. The default banner consists of a centrally aligned heading, a sub-heading underneath and finally 2 button types at the bottom. These items can be deleted or edited as required. Similar to the text block, there are no additional parameters for this block item, content is simply placed into the text field. This field suports HTML tags.<div class="note">To change the style of any content inserted into this block, we recommend that you either use inline styles, or the Custom CSS field in the theme options general tab.</div><b>Preset Layouts</b>
+We have prepared 2 preset layouts for this block. The first one appears by default in this block once it has been added to the page builder. The markup for this one is as follows:<br/>
+<br>
+<img src="shots/action1.jpg" alt="[action1.jpg]" title="" /><div class="highlight"><pre><span class="nt">&lt;h2</span> <span class="na">style=</span><span class="s">&quot;text-align:center;&quot;</span><span class="nt">&gt;</span>This Is Call To Action Section<span class="nt">&lt;/h2&gt;</span>
+<span class="nt">&lt;h3</span> <span class="na">style=</span><span class="s">&quot;text-align:center; font-weight:300; color:#1fbba6;&quot;</span><span class="nt">&gt;</span>With a centrally aligned sub heading to add extra persuasive power<span class="nt">&lt;/h3&gt;</span>
+<span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">&quot;outline-btn&quot;</span>  <span class="na">href=</span><span class="s">&quot;#&quot;</span><span class="nt">&gt;</span>BUTTON TYPE B<span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">&quot;icon-right-open-mini&quot;</span><span class="nt">&gt;&lt;/i&gt;&lt;/a&gt;</span> <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">&quot;contour-btn&quot;</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span><span class="nt">&gt;</span>BUTTON TYPE  A <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">&quot;icon-right-open-mini&quot;</span><span class="nt">&gt;&lt;/i&gt;&lt;/a&gt;</span>
+</pre></div>
+The second is a slight variation on the first layout but more simple and with left aligned content. The HTML needed for this second block is as follows and may be copied and pasted into the page builder block from here:<br/>
+<br>
+<img src="shots/action2.jpg" alt="[action2.jpg]" title="" /><div class="highlight"><pre><span class="nt">&lt;h2</span> <span class="na">style=</span><span class="s">&quot;float:left;&quot;</span><span class="nt">&gt;</span>This Is Call To Action Section<span class="nt">&lt;/h2&gt;&lt;a</span> <span class="na">class=</span><span class="s">&quot;outline-btn  pull-right&quot;</span>  <span class="na">href=</span><span class="s">&quot;#&quot;</span><span class="nt">&gt;</span>BUTTON TYPE B<span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">&quot;icon-right-open-mini&quot;</span><span class="nt">&gt;&lt;/i&gt;&lt;/a&gt;</span> <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">&quot;contour-btn pull-right&quot;</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span><span class="nt">&gt;</span>BUTTON TYPE  A <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">&quot;icon-right-open-mini&quot;</span><span class="nt">&gt;&lt;/i&gt;&lt;/a&gt;</span>
+</pre></div>
+<br/>
+<h2><a name="sec15_11">15.11</a> Page Builder - Home Columns Block</h2>
+<br/>
+This block is used to add column based content blocks to your layout. Each content block consists of an icon at the top, followed by a title, followed by a text block and finally an optional button/link (See the image below for an example of how this section looks). The text block at the bottom can support basic HTML tags, which means that lists may be inserted here. This block is an ideal section to describe services offered on your website, or to describe the various stages in your working process, etc. Parameters available for this block are as follows:<br/>
+<br>
+<img src="shots/home_cols_front.jpg" alt="[home_cols_front.jpg]" title="" />
+<br/>
+Parameters available for this block are as follows:<br/>
+<br>
+<img src="shots/home_column_block.jpg" alt="[home_column_block.jpg]" title="" />
+<br/>
+<b>Main Block</b>
+<table><tr><td class="option">Layout</td><td class="value">Similar to the columns block, here you can choose how many columns you require in your home column section. This will determine how many sub blocks should be added here.<td></tr></table><b>Single Column Sub-Block</b>
+<table><tr><td class="option">Title</td><td class="value">This is the title of the column.<td></tr><tr><td class="option">Icon</td><td class="value">Choose the icons which best represents the column&#39;s content or theme.<td></tr><tr><td class="option">Content</td><td class="value">Enter the column content here, simple HTML tags and WP editor use is supported here.<td></tr><tr><td class="option">Link Label</td><td class="value">Enter the label for the link/button. Leave blank to hide the link.<td></tr><tr><td class="option">Link Url</td><td class="value">Enter the url for the link/button. Leave blank to hide the link.<td></tr></table>To add further blocks to this home columns section, click the green &quot;+&quot; icon at the bottom of the column field. This will bring up a list of available blocks to add.<br/>
+<br>
+To add a list of items to one of the columns you can use the following HTML snippet (copy and paste from here):<div class="highlight"><pre><span class="nt">&lt;ul&gt;</span>
+    <span class="nt">&lt;li&gt;</span>Ut aliquam sollicitudin leo.<span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>Cras ornare tristique elit.<span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>Cras iaculis ultricies nulla.<span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>Nunc dignissim risus metus.<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ul&gt;</span>
+</pre></div>
+<br/>
+<h2><a name="sec15_12">15.12</a> Page Builder - Contact Form Block</h2>
+<br/>
+Use this block to add a contact form to your layout. This block consists of a form with configurable input fields. Parameters available for this block are as follows:<br/>
+<br>
+<img src="shots/mboxes/builder/contact_form.png" alt="[contact_form.png]" title="" />
+<br/>
+<table><tr><td class="option">Intro Text</td><td class="value">Here you may enter an intro message to the form. Simple HTML tags are supported here.<td></tr><tr><td class="option">Submit Label</td><td class="value">Here you can specify the label for the form submit button.<td></tr><tr><td class="option">Confirmation</td><td class="value">This is the message which is displayed to users of the form when their message has been sent successfully.<td></tr><tr><td class="option">Errors</td><td class="value">This is the message which is displayed to users of the form when it has not been filled out correctly or when there have been errors during sending.<td></tr><tr><td class="option">Fields</td><td class="value">This is the form fields control. Here you can add and subtract fields in the contact form. To add fields click the &quot;Add New Field&quot; button, while deleting field is done by clicking the red &quot;-&quot; icon on the right hand end of that field&#39;s row. Each field requires the following properties to be set:<br/>
+<b>Type</b> - Text or Textarea. Use Textarea for message fields, and Text for all others.<br/>
+<b>Label</b> - The label to display on the field.<br/>
+<b>Name</b> - Give the field a name. This name will be used in the resulting email in the format: Field Name: Field Content.<br/>
+<b>Required</b> - Here you can specify if the field is required or not. If its required, it will not be possible to submit the form without first entering some data into all required fields. If some required fields are empty and a user attempts to submit the form, the error message explained in the above options will display.<td></tr></table>
+<h2><a name="sec15_13">15.13</a> Page Builder - Columns Block</h2>
+<br/>
+Use this block to add columns of content to your layout. Irrespective of the column number or size,. this block should be used. Other blocks can then be inserted into this block. Parameters available for this block are as follows:<br/>
+<br>
+<img src="shots/mboxes/builder/columns.png" alt="[columns.png]" title="" />
+<br/>
+<table><tr><td class="option">Layout</td><td class="value">Here you can specify the number and relative sizes of the column required.<td></tr></table>Once the required layout has been chosen, click the green &quot;+&quot; icon at the bottom of the following field. This is where the column blocks will now need to be added. Each column will be a new block. Once the green icon has been clicked, the full list of available blocks will appear, select your desired block which will be column 1. Editing or populating the chosen block with content works just like for normal blocks, except this block will be rendered in a column in your layout. 
+<br/>
+<br>
+<br/>
+<h2><a name="sec15_14">15.14</a> Page Builder - Container Block</h2>
+<br/>
+Use this block to add a container into which further blocks may then be added. To add blocks to this container, click the green &quot;+&quot; icon at the bottom of the empty field. This will bring up a list of available blocks to add. There are no other parameters in this block type. 
+<br/>
+<img src="shots/mboxes/builder/container.png" alt="[container.png]" title="" />
+<br/>
+<br>
+<br/>
+<h2><a name="sec15_15">15.15</a> Page Builder - Pricing Table Block</h2>
+<br/>
+Use this block to add a pricing table module to your layout. A pricing table consists of a column based table of pricing information relating to your products or services. A pricing table may also display an optional column of row titles on the left side. Parameters available for this block are as follows:<br/>
+<br>
+<img src="shots/mboxes/builder/pricing_table.png" alt="[pricing_table.png]" title="" />
+<br/>
+<b>Main Block</b>
+<table><tr><td class="option">Show Labels</td><td class="value">If this option is set to &quot;Yes&quot; then the first column in the table will be devoted to row labels. If set to &quot;No&quot; all columns will be the same.<td></tr><tr><td class="option">Starter</td><td class="value">Select the column which will show the &quot;Starter&quot; highlighting. This would normally be the most affordable pricing column.<td></tr><tr><td class="option">Popular</td><td class="value">Select the column which will show the &quot;Popular&quot; highlighting. This would normally be the most popular pricing column.<td></tr></table><b>Single Column Sub-Block</b>
+<table><tr><td class="option">Title</td><td class="value">This is the title of the column which appear a the very top of the column above the pricing info.<td></tr><tr><td class="option">Price Box</td><td class="value">This is the pricing info for this column. This box normally holds the price and the pricing period, for example, per/month or per/item etc. This box accepts HTML and the WP editor may be used to help style this content.<td></tr><tr><td class="option">Features</td><td class="value">This is the row control for this column. You can add and subtract rows using the &quot;Add New&quot; button and the red &quot;-&quot; icon. For a table to look balanced, each column should have equal number of rows. Once a row has been added it&#39;s content may be inserted into the new field which appears.<td></tr><tr><td class="option">Button Label</td><td class="value">This is the label of the button associated with this column. Usually these buttons provide a &quot;Buy Now&quot; or &quot;Sign Up&quot; link for the pricing plan outlines in this column.<td></tr><tr><td class="option">Button Link</td><td class="value">This is the url link associated with the button described above.<td></tr></table>To add further columns to this pricing table, click the green &quot;+&quot; icon at the bottom of the column field. This will add another column block.<br/>
+<br>
+<br/>
+<br>
+<br/>
+<h2><a name="sec15_16">15.16</a> Page Builder - Tabs Block</h2>
+<br/>
+Use this block to add horizontally tabbed content to your layout. Each tab consists of a title and body content. The body content is only displayed when the title is clicked by the user, except in the case of the first tab, which will be open upon page load. Parameters available for this block are as follows:<br/>
+<br>
+<img src="shots/mboxes/builder/tabs.png" alt="[tabs.png]" title="" />
+<br/>
+<b>Single Tab Sub-Block</b>
+<table><tr><td class="option">Title</td><td class="value">This is the title of the tab item, this will be visible always.<td></tr><tr><td class="option">Content</td><td class="value">Enter the content for the tab here. Simple HTML tags and use of the default WP editor are supported here.<td></tr></table>To add further tabs to this tabs section, click the green &quot;+&quot; icon at the bottom of the tab field. This will add show the supported sub-block types which may be inserted here. This types are as follows:<br/>
+<br>
+<table><tr><td class="option">Text Block</td><td class="value">Use this to insert simple text/HTML content into the tab.<td></tr><tr><td class="option">Container Block</td><td class="value">Use this block to insert a container block, into which other more complex blocks may then be added. This works exactly like the normal Container Block.<td></tr></table>
+<h2><a name="sec15_17">15.17</a> Page Builder - Accordion Block</h2>
+<br/>
+Use this block to add an accordion view to your layout. Parameters available for this block are as follows:<br/>
+<br>
+<img src="shots/mboxes/builder/accordion.png" alt="[accordion.png]" title="" />
+<br/>
+<b>Single Item Sub-Block</b>
+<table><tr><td class="option">Title</td><td class="value">This is the title of the accordion item, this will be visible always.<td></tr><tr><td class="option">Content</td><td class="value">Enter the content for the accordion item here. Simple HTML tags and use of the default WP editor are supported here.<td></tr></table>To add further accordion items to this accordion section, click the green &quot;+&quot; icon at the bottom of the block. This will add show the supported sub-block types which may be inserted here. This types are as follows:<br/>
+<br>
+<table><tr><td class="option">Text Block</td><td class="value">Use this to insert simple text/HTML content into the accordion.<td></tr><tr><td class="option">Container Block</td><td class="value">Use this block to insert a container block, into which other more complex blocks may then be added. This works exactly like the normal Container Block.<td></tr></table>
+<h2><a name="sec15_18">15.18</a> Page Builder - FAQ Block</h2>
+<br/>
+Use this block to add a collapsible toggle to your content. This view is usually used for Frequently asked questions and consists of a clickable heading with a collapsible body content area. Clicking on this heading will reveal the toggle item&#39;s content, if currently collapsed, or likewise if the toggle&#39;s content is currently showing, clicking the heading will hide it. Parameters available for this block are as follows:<br/>
+<br>
+<img src="shots/mboxes/builder/faqs.png" alt="[faqs.png]" title="" />
+<br/>
+<b>Single Item Sub-Block</b>
+<table><tr><td class="option">Title</td><td class="value">This is the title of the toggle item, this will be visible always.<td></tr><tr><td class="option">Closed</td><td class="value">Choose whether the toggle items will be closed upon initial page load. If a toggle item is closed then only its title content can be seen. A user will need to click this title content in order to see the body content.<td></tr><tr><td class="option">Content</td><td class="value">Enter the content for the toggle item here. Simple HTML tags and use of the default WP editor are supported here.<td></tr></table>To add further toggle items to this FAQ section, click the green &quot;+&quot; icon at the bottom of the block. This will add show the supported sub-block types which may be inserted here. This types are as follows:<br/>
+<br>
+<table><tr><td class="option">Text Block</td><td class="value">Use this to insert simple text/HTML content toggle.<td></tr><tr><td class="option">Container Block</td><td class="value">Use this block to insert a container type toggle, into which other more complex blocks may then be added. This works exactly like the normal Container Block.<td></tr></table>
+<h2><a name="sec15_19">15.19</a> Page Builder - Skills Block</h2>
+<br/>
+<img src="shots/skill.jpg" alt="[skill.jpg]" title="" />
+<br/>
+Use this block to show animated bars which can be used to represent a skill level in a certain task or a % based representation of some value. The options available for this block are as follows:<br/>
+<br>
+<table><tr><td class="option">Title</td><td class="value">This is the title of the set of bars. This title appears above the first bar.<td></tr><tr><td class="option">Features</td><td class="value">This control allows new bars to be added to the composition. Each bar consists of 2 fields, a title field and a % value field. The Title appears at the left end of the bar, while the % value appears on the right end of the bar and also determains its length.<td></tr></table>Bars can be removed from the composition by clicking the red &quot;-&quot; icons at the row end.<br/>
+<br>
+<br/>
+<br>
+<br/>
+<h2><a name="sec15_20">15.20</a> Page Builder - Feature Block</h2>
+<br/>
+<img src="shots/feature.jpg" alt="[feature.jpg]" title="" />
+<br/>
+Use this block to create content composition sections. These sections contain a block of text based content and a block of media based content. The media can be image, video or a pre-made view. The options available for this block are as follows:<br/>
+<br>
+<table><tr><td class="option">Title</td><td class="value">This is the title of the text block, shown above the content.<td></tr><tr><td class="option">Content</td><td class="value">Enter the text content for the text block. This field supports simple html tags, such as lists for example.<td></tr><tr><td class="option">Button Label</td><td class="value">Enter the text label of the button<td></tr><tr><td class="option">Button Link</td><td class="value">Enter the destination url for the button.<td></tr><tr><td class="option">Media Position</td><td class="value">This options dictates the position of the media block relative to the text block and hence determins the layout of the whole block. In the &quot;bottom&quot; version, the text based content is center aligned.<td></tr><tr><td class="option">Media Type</td><td class="value">Specify the type of media you wish to show. Image/Video/View are available options.<td></tr><tr><td class="option">Media Height</td><td class="value">Specify the height of the media. Leave this field empty to avoid image cropping.<td></tr><tr><td class="option">Image</td><td class="value">Insert an image here to be shown in the media block<td></tr><tr><td class="option">Video</td><td class="value">Specify the video to be shown in the media block<td></tr><tr><td class="option">View</td><td class="value">Specify the View to be shown in the media block<td></tr></table>
+<h2><a name="sec15_21">15.21</a> Page Builder - Stats Block</h2>
+<br/>
+<img src="shots/stat.jpg" alt="[stat.jpg]" title="" />
+<br/>
+Use this block to show columns of statistic information in your layouts. Each column in this block is made up of a title, a content image and a short description. This block&#39;s number of columns may be specified using the &quot;Layout&quot; control, the first option seen in the block. Stat columns can then be added to the parent block by clicking the green &quot;+&quot; sign at the bottom of the stat block. The options available for this block are as follows:<br/>
+<br>
+<table><tr><td class="option">Title</td><td class="value">Enter the title of the stat, this appears above the image.<td></tr><tr><td class="option">Image</td><td class="value">Upload an image to be used in the stat item. This image should have a width of 840px to allow for responsiveness and retina displays.<td></tr><tr><td class="option">Content</td><td class="value">Enter here the text description of the above stat image.<td></tr></table>
+<h1><a name="sec16_0">16</a> Page Builder - Page Layout<a class="top" href="#toc">top</a></h1>When a layout is being created using the page builder, there are other properties of that page which need to be set. These can be found in the right hand sidebar of the content builder page, in the dialog entitles <b>Page Layout</b>. These options will be explained here below:<br/>
+<br>
+<img src="shots/page-layout.jpg" alt="[page-layout.jpg]" title="" />
+<br/>
+<table><tr><td class="option">Title</td><td class="value">Choose if a page title is shown on the page or not. This title , if shown, will be located under the main menu and will consist of text inside a grey strip.<td></tr><tr><td class="option">Content Area</td><td class="value">Set the width of the page&#39;s content area. <b>Boxed</b> - means the content will have a max width of 940px and will remain centered in the browser if the browser is wider than that value. 
+<b>Full Width</b> - means that the content may stretch the full width of the browser frame. This type should be used if any section in the page is to be a full width section, such as a full width slider or a full width portfolio grid. Setting this to &quot;Full Width&quot; does not mean boxed section cannot exist in the page too.<td></tr><tr><td class="option">Sidebar</td><td class="value">Specify whether the page will have a sidebar or not. Only a right hand sidebar is support in this theme.<td></tr><tr><td class="option">Widgets</td><td class="value">If a sidebar is added to the page, this control will appear allowing you to choose which widget area should be assigned to this sidebar. Before a widget area will appear in this list it will first need to be created. See the widgets part of the Theme Options section.<td></tr></table>
+<h2><a name="sec16_1">16.1</a> Page Layouts and Used Block List</h2>
+<br/>
+To help you to imagine how pages are created using blocks from the page builder we will go through the one page layout seen in the online preview of the OneUp theme and list the blocks used in their creation. Indents represent nested blocks.<br/>
+<br>
+<b>Home Page (One Page)</b><ul>
+	<li>Section (Services)<ul>
+			<li>Services</li>
+		</ul>
+	</li>
+	<li>Section (About Us)<ul>
+			<li>Columns: 1/2, 1/2<ul>
+					<li>Text<br/>
+						        </li>
+					<li>Text</li>
+				</ul>
+			</li>
+			<li>View - Carousel</li>
+		</ul>
+	</li>
+	<li>Section (no title)<ul>
+			<li>View - Slider</li>
+		</ul>
+	</li>
+	<li>Section (Our Work)<ul>
+			<li>View - Portfolio Preview</li>
+		</ul>
+	</li>
+	<li>Section (Team)<ul>
+			<li>Staff</li>
+		</ul>
+	</li>
+	<li>Section (Clients)<ul>
+			<li>Testimonials</li>
+		</ul>
+	</li>
+	<li>Section (Contact)<ul>
+			<li>Columns: 1/2, 1/2<ul>
+					<li>Text<br/>
+						        </li>
+					<li>Contact Form</li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+</ul>
+<b>Splash Section</b> - Pan/Zoom Slider<br/>
+<h1><a name="sec17_0">17</a> Shortcodes<a class="top" href="#toc">top</a></h1>The OneUp theme does not contain very many shortcodes because for most layout situations the page builder is used instead of shortcodes, however a few remain whos purpose is to help when inserting blocks of content via the builder or the default WP editor. These will be described here below.<br/>
+<br>
+<b>What Are Shortcodes?</b>
+<br/>
+Shortcodes are basically helper codes which can be inserted into the default Wordpress editor and when the page is rendered they will become full elements. The type of element depends on the type of shortcode used. Shortcodes are available for inserting items such as buttons, colored labels, videos, badges etc. In the following section we will list all the available shortcodes and the properties or parameters associated with each one. 
+<br/>
+To insert a shortcode simply click the <i>Insert Shortcode</i> button in the toolbar area of the default Wordpress editor. When building a page using the page builder view in this theme the WP default editor can be accessed via the &quot;<b>Edit with the HTML Editor</b>&quot; link immediately under the fields intended for content. This is how a shortcode may be used from the page builder.<br/>
+<br>
+<img src="shots/Shortcode Button.png" alt="[Shortcode%20Button.png]" title="" data-spots="1:516:33" />
+<b>^ The Shortcode Icon</b><div class="note">It should be noted that it is not sufficient to copy and paste a shortcode&#39;s short syntax from one page/post/theme&#39;s editor window to another. To be inserted correctly each shortcode needs to be inserted using the shortcode editor. If this process is not followed, the page will not render correctly and the layout will not look as expected.</div><b>To Add a Shortcode do the following:</b>
+<ol style="list-style-type: decimal">
+	<li>Position the cursor in the editor in the specific position where you wish to place the shortcode or element.<br/>
+	</li>
+	<li>Click the Shortcode button <div class="hotspot-link">1</div> to open the shortcode editor/manager dialog (see image above for this button&#39;s location.<br/>
+	</li>
+	<li>Select the desired shortcode type from the dropdown list 
+	</li>
+	<li>Fill in all of the required parameters for that shortcode<br/>
+	</li>
+	<li>When you are ready, click <i>Insert Shortcode</i> the editor will then close and you will see the shortcode appear in the editor window.</li>
+</ol>
+<br/>
+<h2><a name="sec17_1">17.1</a> Shortcode - Buttons</h2>
+<br/>
+<table><tr><td class="option">Button Type</td><td class="value">Select the desired button type. The type determines the button&#39;s color.<td></tr><tr><td class="option">Button Size</td><td class="value">Select the size of button required<td></tr><tr><td class="option">URL</td><td class="value">Enter the destination url here<td></tr><tr><td class="option">Optional Label</td><td class="value">This is the button label. This label may be omitted and the icon shortcode combined with this button shortcode is an icon button was only required.<td></tr></table>
+<h2><a name="sec17_2">17.2</a> Shortcode - Video</h2>
+<br/>
+Use this shortcode to insert videos into the post or page content areas. YouTube and Vimeo Videos are the only supported video types.<br/>
+<br>
+<table><tr><td class="option">Use Video</td><td class="value">Select the video from the drop list which you would like to insert.<td></tr></table><div class="note">For Videos to appear in the drop list, they first need to be created in the Video custom post type. See the Creating Video Items section.</div>
+<h2><a name="sec17_3">17.3</a> Shortcode - Labels</h2>
+<br/>
+Use this shortcode to insert colored labels or label buttons into the content areas of posts or pages.<br/>
+<br>
+<table><tr><td class="option">Label Type</td><td class="value">Select the desired label type. The type determines the label&#39;s color.<td></tr><tr><td class="option">URL</td><td class="value">Enter the destination url here. If the label is not going to be a button, leave this field blank<td></tr><tr><td class="option">Label</td><td class="value">This is the label&#39;s text.<td></tr></table>
+<h2><a name="sec17_4">17.4</a> Shortcode - Badges</h2>
+<br/>
+Use this shortcode to insert colored badges or badge buttons into the content areas of posts or pages.<br/>
+<br>
+<table><tr><td class="option">Badge Type</td><td class="value">Select the desired badge type. The type determines the badge&#39;s color.<td></tr><tr><td class="option">URL</td><td class="value">Enter the destination url here. If the badge is not going to be a button, leave this field blank<td></tr><tr><td class="option">Label</td><td class="value">This is the badge&#39;s text content.<td></tr></table>
+<h1><a name="sec18_0">18</a> Theme Options<a class="top" href="#toc">top</a></h1>In this section we will explain the custom options that come with the OneUp theme, where to find them and what you would use them for.<br/>
+<br>
+OneUp&#39;s custom theme options can be found at <i>Appearance &gt; Theme Options</i>. These options will appear once the OneUp theme has been successfully installed. The various options are organized into vertical tabs on the left side. Simply click on a tab to show its contents in the main content area.<div class="note">In the admin panel itself, beside each option, you will see a short description of what that particular options does. In most cases these short descriptions will be enough to explain how to use the custom options found in this theme. Nonetheless all options are explained here below.</div>
+<h2><a name="sec18_1">18.1</a> General Options</h2>
+<br/>
+General options usually with a global or site wide effect. This tab is open by default when this page is loaded.<br/>
+<br>
+<table><tr><td class="option">Import Demo Content</td><td class="value">This option allows you to import ready made content for the theme to make it look like the theme&#39;s online demo site. See the theme setup section for more information.<td></tr><tr><td class="option">Skin</td><td class="value">This option controls the default skin color for the theme.<td></tr></table><div class="note">The choice of skin type affects the default colors of the theme. These default colors can be overridden by other color options in the theme, such as the background color options for section blocks in the page builder. In all builder section blocks, for section backgrounds to be affected by a change in this option, they should use the &quot;Default&quot; background setting. This background color will be white in the light skin and dark in the dark skin. For example, When using the light skin, if a color of white is explicitely set for a page builder section background and then the dark skin is selected here using this option, only that section&#39;s content will be affected, its background will remain white. Its background should be set to &quot;Default&quot; in the page builder block&#39;s settings for it to change with the change of skin. The theme&#39;s blog, e-commerce pages and all standard pages will automatically reflect changes in the theme skin.</div><table><tr><td class="option">Logo</td><td class="value">This is the logo for the whole site and appears in the top left corner - Replace with your own logo in .png format.<td></tr><tr><td class="option">Favicon</td><td class="value">This is the favicon or bookmark icon for the website, replace with your own 16x16px icon.<td></tr><tr><td class="option">Use Animations</td><td class="value">This options allows you to specify if section contents will appear showing animations as the user scroll down the page. Note, not all sections support animation.<td></tr><tr><td class="option">Custom CSS</td><td class="value">This field allows the insertion of custom CSS selectors. This is required if you wish to change some aspect of the theme&#39;s default CSS. CSS selectors inserted here will overwrite those in the theme&#39;s default CSS. Note: For notes on how to find the CSS selector of the element you wish to change, please refer to the section entitled &quot;Custom CSS&quot;<td></tr><tr><td class="option">Custom JS</td><td class="value">This field is used to add custom javascript to the theme. For example this field would be used to add Google Analytics tracking code to the theme.<td></tr></table>
+<h2><a name="sec18_2">18.2</a> Footer Options</h2>
+<br/>
+<table><tr><td class="option">Sticky Footer</td><td class="value">This is a style of footer seen in the one-page layout in the online demo. It&#39;s basically stuck to the bottom of the browser and when scrolling the page appears to slide off the footer like they were separate elements. This type of footer is only supported in full width pages created using the page builder.<td></tr><tr><td class="option">Logo</td><td class="value">This is the logo with appears in the footer of the site. Replace with your own image in a .png format.<td></tr><tr><td class="option">Copyright</td><td class="value">Here the copyright notice of the website is inserted. This content appears on the left side of the footer. Simple HTML is supported.<td></tr><tr><td class="option">Social Profile Links</td><td class="value">Enter here several social media links and choose a corresponding icon for each link. Links successfully added will appear in a table below this option.<td></tr></table>
+<h2><a name="sec18_3">18.3</a> Color Options</h2>
+<br/>
+This tab controls the color(s) of the theme. You can reset the options to the original color at any time by clicking &quot;Restore Default&quot; link just below the input field.<br/>
+<br>
+<table><tr><td class="option">Primary Color</td><td class="value">Using the color picker, set the primary color of the theme.<td></tr><tr><td class="option">Splash Caption Color</td><td class="value">Using the color picker, set the color of the tagline text which appears immediately below the logo on the splash screen (Seen when site first loads).<td></tr></table>
+<h2><a name="sec18_4">18.4</a> Google Font Options</h2>
+<br/>
+In this tab you can specify Google Web Typefaces to be used in various parts of the theme.For each elements listed below you can choose any front from the Google Web Font library. Once you have chosen a font from the list, you will see a preview of this font immediately beneath the list box. Icons will appear on the right hand side of the preview. These icons indicate what font weights are available for that chosen typeface. The Icons are as follows:<br/>
+<br>
+<ol style="list-style-type: decimal">
+	<li><b>R</b> -- Regular<br/>
+	</li>
+	<li><b>B</b> -- Bold<br/>
+	</li>
+	<li><b>I</b> -- Italics<br/>
+	</li>
+	<li><b>BI</b> -- Bold Italics</li>
+</ol>
+When deciding what font to use, ensure that the chosen font contains the font weight required by the element in the theme, where it is being applied. For example, All main headings are bold, so you need to select a new font for these elements which supports a bold font weight. If you select a font which does not have a bold icon, the font will not be applied. 
+<br/>
+<br>
+The full list of available fonts and their respective weights can be seen in the <a href="http://www.google.com/webfonts" rel="nofollow">Google Web Font Library</a>
+<br/>
+<br>
+<br/>
+<h2><a name="sec18_5">18.5</a> Contact Form Options</h2>
+<br/>
+This tab controls the email sent from the theme&#39;s contact form.<br/>
+<br>
+<table><tr><td class="option">Email Address</td><td class="value">Enter the email address where the contact form emails will be sent. If this field is left blank, the Admin email address will be used. The Admin email address is the address entered in <b>General Settings &gt; Email Address</b>.<td></tr><tr><td class="option">Subject Line</td><td class="value">Enter a custom subject line which will appear on all email sent from the contact form. This is useful when setting up email filters<td></tr></table>
+<h2><a name="sec18_6">18.6</a> Widget Areas Options</h2>
+<br/>
+This tab controls the creation of widget areas in the theme. The OneUp theme supports widgetized sidebars and a widgetized footer. This theme also supports unlimited widgetized areas, this means that any post can display a different sidebar. Each sidebar&#39;s contents can be unique.<br/>
+<br>
+<table><tr><td class="option">Widget Areas</td><td class="value">Create new sidebar widget area for use in the theme. Once the widget area has been created, it will be available on the <b>Appearance &gt; Widgets</b> page where you can add widgets to it.<td></tr></table>
+<h2><a name="sec18_7">18.7</a> Advanced Options</h2>
+<br/>
+This section controls a few more advanced options for the theme. These options would only concern the more advanced users.<br/>
+<br>
+<table><tr><td class="option">Load More</td><td class="value">This option replaces the default pager with a &quot;Load More&quot; button in Blog archives, tags and category pages. Load More functionality for portfolio grids view and blog view is controlled in individual &quot;Views&quot;. See the description of each of these views in the &quot;Creating Views&quot; section for more info.<td></tr><tr><td class="option">Retina Support</td><td class="value">If set to &quot;Yes&quot; high resolution images will be served to retina compatible devices, providing your original images are large enough to support a 2x size. This also requires Lazy Loading to be enabled in order to function correctly.<td></tr><tr><td class="option">Lazy Loading</td><td class="value">Lazy Loading only loads images once they are needed. Without lazy loading all image assets are loaded upon page load. Using Lazy Loading will make page load times faster, and page rendering less cpu heavy, which is especially useful in mobile and tablet devices.<td></tr><tr><td class="option">Save Builder in Editor</td><td class="value">If enabled, this option will mean that page builder content will replace WP editor content when saving the page. Plugins like Yoast SEO will then be able to access page builder content also.<td></tr><tr><td class="option">Javascript Compression</td><td class="value">This instructs the theme to use a compressed version of the javascript source code required by this theme. Using the compressed javascript speeds up the loading of the theme&#39;s pages.<td></tr><tr><td class="option">CSS Compression</td><td class="value">This instructs the theme to use a compressed version of the CSS stylesheets required by this theme. Using the compressed CSS speeds up the loading of the theme&#39;s pages.<td></tr></table><div class="note">The only reason for disabling CSS and JS compression would be if you wished to make significant changes to the CSS or Javascript sources for this theme. For minor CSS and Javascript changes to the theme, the <i>Custom CSS/JS</i> fields in the <i>General</i> Theme options tab (See above), should be sufficient.</div><table><tr><td class="option">Clear Thumbs Cache</td><td class="value">The thumb cache shows all thumbs associated with a certain attachment in the media library thumb cropping control. These thumbs are auto generated by the theme at various sizes where the attachment had been used. If images are later removed, swapped, inserted elsewhere etc. all of the generated thumbnails will still appear in the cropping control dialog even though they may not be used anymore by the theme. There are 2 options to deal with this situation.<br/>
+<b>Hide</b> - Removes all the thumbnails appearing in the cropping control dialog. Only those thumbnails loaded when the website is viewed become visible again in the cropping control area. Preview the page in a browser to see the required thumbs only in the dialog again. No thumbnails are deleted.<br/>
+<b>Delete</b> - Removes all the thumbnails appearing in the cropping control dialog and also deletes the thumbnail image files from the server. This option puts more of a strain on the server because images have to be regenerated, however it keeps the media folders free from unnecessary thumbnail sizes.<td></tr><tr><td class="option">Show Thumbnails</td><td class="value">If set to &quot;Yes&quot;, featured image thumbnails (if inserted) are shown in the post list view in the WordPress default admin post list - <i>Posts&gt;All Posts</i>. This simply makes it easier to recognise posts based on their featured images as opposed to their titles.<td></tr></table>
+<h2><a name="sec18_8">18.8</a> Auto Update Options</h2>
+<br/>
+This section controls whether the theme automatically checks for updates.Checking for updates is handled via WordPress internal updater functions. Once an update is found it can be installed from within the theme page <i>Appearance &gt; Themes</i>. 
+<br/>
+<table><tr><td class="option">Check for Theme Updates</td><td class="value">Specify if the theme should automatically check for updates<td></tr><tr><td class="option">Envato Username</td><td class="value">Enter your username of the Envato account which was used to purchase the theme<td></tr><tr><td class="option">API Key</td><td class="value">Enter your Envato API key, which can be found in your settings page of your Envato account<td></tr></table><div class="note">Please note that during the updating of the theme, no content will be altered. However if you have modified the theme files manually, like some advanced users do, then these modification would likely be reset/lost during an update.</div><div class="alert">Be careful if you have translated the theme because upon theme update, language files are <b>NOT</b> preserved. You will need to manually restore your po/mo files right after the update.</div>
+<br/>
+<br>
+<br/>
+<h2><a name="sec18_9">18.9</a> Branding Options (Hidden)</h2>
+<br/>
+These options allow our buyers to rebrand the custom admin panel with their own logo and link. These options are hidden by default. See the section on <b>Branding The Admin Panel</b> later in this documentation for more information. 
+<br/>
+<table><tr><td class="option">Custom Admin Panel Logo</td><td class="value">Upload a logo to be used as the branding of the admin panel<td></tr><tr><td class="option">Custom Admin Panel Url</td><td class="value">Attach a link to this new logo<td></tr></table><div class="note">When changing any settings in the theme options panel, always remember to save those changes before navigating away from the page. To do this simply click &quot;Save All Changes&quot; button at the bottom of the options page.</div>
+<h1><a name="sec19_0">19</a> E-Commerce - WooCommerce<a class="top" href="#toc">top</a></h1>The OneUp theme now comes with support for the most widely used e-commerce WordPress plugin - WooCommerce. This plugin allows you to turn your WordPress theme into an online shop, selling and managing anything from digital downloadable products to physical products. This plugin is free to use and can be found at the following link:<br/>
+<br>
+<b>Plugin Download From Here</b>
+<a href="http://www.woothemes.com/woocommerce/" rel="nofollow">WOOCOMMERCE PLUGIN</a>
+<br/>
+<b>Plugin Documentation Can be Found Here</b>
+<a href="http://docs.woothemes.com/document/woocommerce-shortcodes/" rel="nofollow">WOOCOMMERCE DOCS</a>
+<br/>
+<br>
+<br/>
+<h2><a name="sec19_1">19.1</a> WooCommerce - Getting Started</h2>
+<br/>
+Once you have downloaded the plugin package, simply unzip the archive into the plugins folder of your WordPress installation. Then just navigate to the plugins section in the WP admin area and activate the plugin. Upon activation the plugin will prompt you to allow it to create the pages it requires to function, <b>You should allow the plugin to do this.</b>
+<br/>
+<br>
+<h2><a name="sec19_2">19.2</a> WooCommerce - Settings</h2>
+<br/>
+There are many settings for this plugin so please refer to the plugin documentation for an explanation of all of them. There is one however that I would like to mention.<br/>
+<br>
+<b>Enable WooCommerce CSS</b>
+<br/>
+This option is found in the &quot;General&quot; tab in the settings page of the WooCommerce PLugin. WooCommerce&gt;Settings&gt;General(tab).<br/>
+<br>
+Scroll down to a sub section called &quot;Styles and Scripts&quot; and check the box beside &quot;Enable WooCommerce CSS&quot;. This will reveal several color pickers which you can use to assign a custom color to some of the elements in the plugin which are not controlled by the theme&#39;s primary color choice. The &quot;Proceed To Checkout&quot; button is one such element.<div class="note">This setting will probably be enabled by default in most installations.</div>
+<h2><a name="sec19_3">19.3</a> WooCommerce - Demo Content</h2>
+<br/>
+If you prefer to alter content rather than create it, then you can import a set of dummy products data for your shop. This will allow you to get a feeling for how things will look once filled with custom content.<br/>
+<br>
+<b>To insert Demo content Do the following:</b>
+<br/>
+<ol style="list-style-type: decimal">
+	<li>In the main WP admin menu, go to &quot;Tools&gt;Import&quot;<br/>
+	</li>
+	<li>Specify the type of import to be Wordpress<br/>
+	</li>
+	<li>A plugin will be downloaded and installed if it did not already exist.<br/>
+	</li>
+	<li>You will be asked to specify a dummy content xml file. This can be found in the root folder of the WooCommerce plugin. The file name is: &quot;dummy_data.xml&quot;<br/>
+	</li>
+	<li> Once found, import that file and that&#39;s it.</li>
+</ol>
+<br/>
+<h2><a name="sec19_4">19.4</a> WooCommerce - Sidebar</h2>
+<br/>
+The WooCommerce plugin ships with lots of custom sidebar widgets which you can use to help customers browse your products. You can see these widgets in the Appearance&gt;Widgets section of the WP admin. You can display these widgets in your shop page&#39;s sidebar. To do this follow these instructions:<br/>
+<br>
+<ol style="list-style-type: decimal">
+	<li>Go to the theme options &quot;Widget Areas&quot; tab, Appearance&gt;Theme Options&gt;Widget Areas. 
+	</li>
+	<li>Now create a new widget area, which will only be used in your shop page. Name it &quot;shop&quot;<br/>
+	</li>
+	<li>Next go to the widgets section of the Wp admin. Appearance&gt;Widgets.<br/>
+	</li>
+	<li>Here you will see your new widget area/sidebar on the right hand side. You can now drag your required widgets into this new widget area as normal.<br/>
+	</li>
+	<li>Next open the shop page and in the &quot;Sidebar&quot; control on the right hand side, select the &quot;shop&quot; widget area you created earlier, as the sidebar for this page. And that&#39;s it. Publish the page.</li>
+</ol>
+<br/>
+<h2><a name="sec19_5">19.5</a> WooCommerce - Header Shopping Cart </h2>
+<br/>
+The OneUp theme can display the current status of your shopping cart in the head of the website, on the right end of the main menu. This is optional, but requires a 3rd party plugin to function. The required plugin can be found here:<br/>
+<br>
+<a href="http://wordpress.org/plugins/woocommerce-menu-bar-cart/" rel="nofollow">WOOCOMMERCE MENU CART PLUGIN</a>
+<br/>
+The standard version of this plugin is a free plugin and is all that is required for this theme.<br/>
+<br>
+<b>Set this plugin up as follows:</b>
+<br/>
+<ol style="list-style-type: decimal">
+	<li>Download, install and activate this plugin as normal.<br/>
+	</li>
+	<li>In the WooCommerce item in the mian WP admin menu, you will now have a new sub item entitled &quot;Menu Cart Setup&quot;.<br/>
+	</li>
+	<li>In this page, select the Main menu at the top.<br/>
+	</li>
+	<li>Check the &quot;Always display cart, even if empty&quot; option.<br/>
+	</li>
+	<li>Check the &quot;Display shopping cart icon&quot; option.<br/>
+	</li>
+	<li>The only available icons in the standard version of this plugin is the default icon. This is fine.<br/>
+	</li>
+	<li>Set the menu item to display &quot;Both price and items&quot;.<br/>
+	</li>
+	<li>Set the alignment option to &quot;Default Menu Alignment&quot;<br/>
+	</li>
+	<li>Now click &quot;Save Changes&quot; and that&#39;s it, its now setup and will appear in your site header as part of the menu.</li>
+</ol>
+<div class="note">The cart item created by this plugin is actually just an additional menu item in the main menu. Therefore on devices with small resolutions, the cart item can be found in the mobile menu dropdown, as the last item of the main menu.</div>
+<h1><a name="sec20_0">20</a> Widgetized Areas &amp; Inserting Widgets<a class="top" href="#toc">top</a></h1><div class="note">If you have imported the demo content supplied with this theme, then this setup will be already done. In which case you may only need to modify things. However we still recommend that you read this section carefully because it contains important information which will be useful during modification of the imported widget configuration.</div>The OneUp theme features support for unlimited widget areas. There are 2 widgetized areas in this theme: The sidebar and the footer. Because of the unlimited widget area support in this theme, you can insert a unique sidebar into each and every post, but the footer widgets are set and fixed for all pages. This is very easy to setup and you will be taken through this process in the rest of this section.<br/>
+<br>
+<br/>
+<br>
+<h2><a name="sec20_1">20.1</a> Creating A Widgetized Area</h2>
+<br/>
+<ol style="list-style-type: decimal">
+	<li>Go to Appearance &gt; Theme Options in main menu<br/>
+	</li>
+	<li>Select the <i>Widget Areas</i> tab<br/>
+	</li>
+	<li>Enter a title for your new widget area, click Add New and your widget area will appear in the table below the input field.<br/>
+	</li>
+	<li>Save your changes</li>
+</ol>
+<br/>
+<h2><a name="sec20_2">20.2</a> Inserting Widgets</h2>
+<br/>
+<ol style="list-style-type: decimal">
+	<li>Go to Appearance &gt; Widgets in the main menu<br/>
+	</li>
+	<li>On the right side of this page you will see the available widget areas.If you have not imported the demo content you will see 1 widget areas created when you install the OneUp theme: the <b>Default</b> sidebar widget area.<br/>
+	</li>
+	<li>These widget areas will be empty and so will appear minimized.<br/>
+	</li>
+	<li>Widgets, once added to the sidebar will expand so that you can fill in the various options associated with that specific widget.<br/>
+	</li>
+	<li>Once you have completed the widget options, click <i>Save</i> and then &quot;close&quot; to minimize the widget.</li>
+</ol>
+<br/>
+<h2><a name="sec20_3">20.3</a> Placing Your widgetized Area Into The Theme</h2>
+<br/>
+Once you have filled your widget area with your desired widgets, you will still need to tell the theme on which posts you would like to display this widget area. To do this see the following:<br/>
+<br>
+<b>To Insert The Widget Area as a Sidebar:</b>
+<br/>
+<ol style="list-style-type: decimal">
+	<li>On each post creation page you will see on the right hand side below the &quot;tags&quot; box, an additional content boxes entitled <b>Sidebar</b>.<br/>
+	</li>
+	<li>This boxes allow you to select which widget area is to be used specifically on that post for the sidebar. This may be different for each and every post.</li>
+</ol>
+<b>To Insert The Widget Area as a footer:</b>
+<br/>
+The widgets page already contains a &quot;Footer&quot; widget area. This is the footer widget area and widgets added in here will appear in the theme&#39;s footer. The footer accepts 4 widgets or less.<br/>
+<h1><a name="sec21_0">21</a> The Main Menu<a class="top" href="#toc">top</a></h1>The OneUp theme contains 1 menu locations, the <b>Main Menu</b>. This menu does support 2 sub levels of menu items. In this section we will outline the steps involved in creating the menu for this theme.<br/>
+<br>
+<br/>
+<br>
+<h2><a name="sec21_1">21.1</a> Creating A Menu</h2><div class="note">Before you create your menu for this theme, make sure your pages/sections have been created already. This way they will be available to be inserted into the menu. Also note that if you have imported demo content using the 1-click import feature of this theme, then the main menu will already be created for you and some of these steps will not be applicable.</div><ol style="list-style-type: decimal">
+	<li>Go to Appearance&gt; Menus in the main admin menu.<br/>
+	</li>
+	<li>At first you will probably need to add a menu, give it a name &amp; click <i>Create Menu</i>. The new menu will appear in a tab in this location. Click on this tab to begin adding menu items.<br/>
+	</li>
+	<li>Use the dialog boxes on the left hand side of the page to add items to your menu. Select the page you wish to add to the menu and click &quot;Add to Menu&quot;.<br/>
+	</li>
+	<li>If you wish to use submenus then firstly you must create a top level menu item. This item may not hold a link. Therefore to create this item you would use the &quot;Custom Link&quot; dialogue on the left side of this page, near the top. Simply enter a &quot;#&quot; character as the item url, and give the item a title. Then add it to the menu as you would do normally. Once its in the menu drag the sub menu items to be children items of this custom link item.<br/>
+	</li>
+	<li>Now you can drag the newly inserted menu item to their correct sequence and rename their titles if required. 
+	</li>
+	<li>After you have added and edited the menu items click <i>Save Menu</i> in the bottom of this area.</li>
+</ol>
+<br/>
+<h2><a name="sec21_2">21.2</a> Adding The Menu To the Theme</h2>
+<br/>
+Finally you will need to specify the location for this menu. As mentioned above, the OneUp theme contains 1 possible menu location; the Main Menu.<br/>
+<br>
+<br/>
+<b>To assign the Main Menu</b>
+<br/>
+<ol style="list-style-type: decimal">
+	<li>Go to Appearance&gt; Menus in the main admin menu.<br/>
+	</li>
+	<li>At the top left of that page you will see a panel titled <i>Theme Locations</i>
+	</li>
+	<li>Here there will be a select box under the two available locations in the OneUp theme.These select boxes will hold a list of all created menus.<br/>
+	</li>
+	<li>so select the menu you wish to place in the Main Menu location from the drop down and then click <i>Save</i>.</li>
+</ol>
+<br/>
+<h2><a name="sec21_3">21.3</a> Creating A Scrolling Menu Item</h2>
+<br/>
+<img src="shots/scroll-menu.jpg" alt="[scroll-menu.jpg]" title="" />
+<br/>
+The above section talks about how to create ordinary menu items, but the OneUp theme is primarily a one page theme, therefore the main menu usually contains section titles. These titles when clicked would scroll the page to the section corresponding to the clicked menu item.<br/>
+<br>
+This type of item, which clicked by the user, will automatically scroll the page and stop at the section corresponding to the clicked menu item. The following is how you create one of these.<br/>
+<br>
+<ol style="list-style-type: decimal">
+	<li>Once you have created your One Page Layout using the page builder it should be visible in the &quot;Pages&quot; box in the edit menu area.<br/>
+	</li>
+	<li> Select this page and click &quot;Add to menu&quot;. It should not appear in the menu area.<br/>
+	</li>
+	<li> Expand this menu item which has just appeared and you will see a field entitled: &quot;Section&quot;.<br/>
+	</li>
+	<li> This field corresponds with the &quot;Link&quot; field found in the &quot;Section&quot; block in the page builder.<br/>
+	</li>
+	<li> Every section inserted into the page builder can be given a unique link name. This link name of the section you want this menu item to scroll to when clicked, should be inserted into this field. 
+	</li>
+	<li> Next rename the menu item&#39;s Navigation Label to something corresponding to the section it will be scrolling to and save the menu.<br/>
+	</li>
+	<li> Now when this menu item is clicked, the page will scroll to section with the label you entered into the &quot;Section&quot; field.<br/>
+	</li>
+	<li> Now for other sections, you just repeat the sequence, again adding the builder page item to the menu and renaming it and including a section link name.</li>
+</ol>
+<div class="note">Scrolling links will only work if the current page which you are viewing contains the section corresponding to the menu item. If not, then a page reload will occur and the page may snap to that section once the new page is loaded, without any scrolling being noticed.</div>
+<h1><a name="sec22_0">22</a> Contact Form<a class="top" href="#toc">top</a></h1>The contact form in this theme doesn&#39;t require any setup. It automatically uses the contact information from the Wordpress Admin area. If the email from the contact form is required to be sent to a different address than the Admin email address of the WordPress install, then the following field in the Theme Options panel needs to be filled:<br/>
+<br>
+The following settings can be found at <b>Appearance&gt;Theme Options&gt;Contact Form</b> - This tab controls the email sent from the theme&#39;s contact form.<br/>
+<br>
+<table><tr><td class="option">Email Address</td><td class="value">Enter the email address where the contact form emails will be sent. If this field is left blank, the Admin email address will be used. The Admin email address is the address entered in <b>General Settings &gt; Email Address</b>.<td></tr><tr><td class="option">Subject Line</td><td class="value">Enter a custom subject line which will appear on all email sent from the contact form. This is useful when setting up email filters<td></tr></table>
+<h1><a name="sec23_0">23</a> Fonts<a class="top" href="#toc">top</a></h1>The OneUp theme uses Google web fonts by default. These fonts are as follows:<br/>
+<br>
+<table><tr><td class="option">Body Font</td><td class="value">Open Sans<td></tr><tr><td class="option">Heading Font</td><td class="value">Open Sans<td></tr><tr><td class="option">Splash Caption Font</td><td class="value">Open Sans<td></tr></table>If you wish to make changes to these fonts you have the following options:<br/>
+<br>
+<ol style="list-style-type: decimal">
+	<li>Use the Custom CSS box in the Theme options to insert new fonts into the theme manually with CSS.<br/>
+	</li>
+	<li>Insert any Google Web font using the &quot;Fonts&quot; tab in the theme options. See the Theme Options section for an explanation of the options in this tab. The section is entitled <b>Google Font Options</b>
+	</li>
+	<li>The Fonts Tab also allows advanced users to specify new fonts, line heights, sizes etc. See that page for more info.</li>
+</ol>
+<br/>
+<h1><a name="sec24_0">24</a> Theme Translation<a class="top" href="#toc">top</a></h1>There are two methods to translate this theme, which are as follows:<br/>
+<br>
+<ol style="list-style-type: decimal">
+	<li>Using a POT file<br/>
+	</li>
+	<li>Using the WPML (WordPress MultiLingual Plugin)</li>
+</ol>
+<b>Method 1</b> is a simple method but it is designed to basically translate the theme&#39;s static text content into one other language. For example this would be used when the theme was designed to be used in English, but your website will be in italian or another language, and you would like to translate all the parts of the theme which are not the content you will be writing. This would included back end translation such as admin field names, descriptions etc, as well as front end static text which is visible to the visitor. These front end items would included things like contact from field names, comment section titles, other titles which appear automatically rather then being actually entered by you. This method is not designed to handle language switching in your website. If you require this more advanced functionality, you will need to use method 2 (See below).<br/>
+<br>
+<b>Method 2</b> is more advanced than method 1, but it allows for much more flexability. This plugin will need to be purchased by normnal users, but it is free for theme developers. To buy/download this plugin(s) go to this link: <a href="http://wpml.org/" rel="nofollow">WPML.org</a>. The WPML plugin is quite complex and you should not attempt to use it without first referring to the help documentation. We will not be explaining how to use the plugin here, but will be mentioning some details about how it is used with the OneUp theme specifically. See below for more info on both methods.<br/>
+<br>
+<br/>
+<br>
+<h2><a name="sec24_1">24.1</a> Translation Using POT File</h2>
+<br/>
+To translate the theme using the POT file do the following:<br/>
+<br>
+<ol style="list-style-type: decimal">
+	<li>Create a po file for your language, for example <b>de_DE.po</b>
+	</li>
+	<li>Copy all text from provided theme pot file into your po file<br/>
+	</li>
+	<li>Edit the po file with <b>poedit</b> <a href="http://www.poedit.net/" rel="nofollow">http://www.poedit.net/</a>
+	</li>
+	<li>Create the mo file<br/>
+	</li>
+	<li>edit <i>wp-config.php</i> file in your installation and set <b>WPLANG</b> so it matches your languages: <b>define(&#39;WPLANG&#39;, &#39;de_DE&#39;);</b>
+	</li>
+	<li>The Theme should now display all messages in your language.</li>
+</ol>
+<div class="alert"><b>BACKUP YOUR LANGUAGE PO/MO FILES</b> 
+Upon theme update, language files are <b>NOT</b> preserved. 
+You will need to manually restore your po/mo files right after the update.</div>
+<br/>
+<br>
+<br/>
+<h2><a name="sec24_2">24.2</a> Translation Using WPML</h2>
+<br/>
+To translate the theme using the WPML plugin(s) do the following:<br/>
+<br>
+<ol style="list-style-type: decimal">
+	<li>Buy/Download the following plugins from <a href="http://wpml.org/" rel="nofollow">WPML.org</a><ul>
+			<li>sitepress_multilingual_cms<br/>
+				  </li>
+			<li>wpml-string-translation</li>
+		</ul>
+	</li>
+	<li>Install them to your WordPress website in the normal way and activate them.<br/>
+	</li>
+	<li>Configure the plguins by selecting the language of your existing site content<br/>
+	</li>
+	<li>Select a 2nd language for your website.<br/>
+	</li>
+	<li>Select where you would like to locate the language selection dropdown menu and click finish.</li>
+</ol>
+The plugins are now installed and configured.<br/>
+<br>
+These plugins basicaly work by allowing you to have multiple sets of content in your website, one set for each additional language you have selected. You can switch between these content sets by selecting in which language to show admin content. When a different language is selected and this language does not contain any translated content yet, nothing will appear in the posts, pages, projects lists. Dont be alarmed, this is normal. Read through the WPML help documentation about the work flow required to translated existing content. Almost all content can be translated, with a couple of exceptions. See below for more info.<div class="note">Use the drop down menu in the theme front end to select which version of the theme you would like to see. If you have already added a 2nd language to the theme but yet its not possible to select your second language in the drop menu on the front end, this is because you have not yet created a page/post/project for this new language, and so the theme cannot display anything.</div><div class="alert">The WPML plugin stored the current language selection in a cookie. This means that if you are using 2 separate browser tabs to make changes and preview the results, you should be careful to always make sure that the admin language is always reselected once you return from viewing the theme&#39;s font end. The reason for this is that if you changed the language while reviewing the theme (in the fromt end) and then return to the admin tab (which will not have refreshed), the admin may be showing one language but the cookie will have stored the other one. 
+<br/>
+So before making changes in the admin, reselect the desired language from the drop menu at the top of the admin page.</div>
+<br/>
+<br>
+<br/>
+<h2><a name="sec24_3">24.3</a> Lanuage Switcher Menu</h2>
+<br/>
+There are two options for switching of languages in the OneUp theme. These are explained here below.<br/>
+<br>
+<b>Option 1 - WPML Drop Menu</b>
+<br/>
+In previous versions of this theme, once the WPML plugins were installed, a language drop menu automatically appeared in the header of the theme. The settings for this drop menu are controlled via the WPML plugin settings.<div class="note">In the current version of this theme, this code has been commented out in order to make option 2 (explained below) the default option for language switching. It should be noted however, that if you should wish to use option 1 as the default language switching method, simply follow the instructions below.</div><b>Enable the WPML Default Header Switcher</b>
+<br/>
+<ol style="list-style-type: decimal">
+	<li>Open the header.php file in the theme root folder.<br/>
+	</li>
+	<li>Find the following piece of code: <i>&lt;?php if (false &amp;&amp; defined(&#39;ICL_LANGUAGE_CODE&#39;)):</i>
+	</li>
+	<li>Remove the &quot;false &amp;&amp;&quot; from the expression so the code now looks like this: <i>&lt;?php if (defined(&#39;ICL_LANGUAGE_CODE&#39;)):</i>
+	</li>
+	<li>Now the default header language switcher will show in the theme provided the WPML plugin is installed and activated.</li>
+</ol>
+<div class="note">When using language switching option 1, it is required to include language flags in the default drop menu layout (enable this option in WPML settings). The reason for this is that due to the lack of space in mobile devices, only the flags are shown in the default WPML language switching drop menu at those small resolutions. Therefore if no flags are shown, nothing will appear in mobile resolution.</div><b>Option 2 - Custom Flags Menu Item</b>
+<br/>
+<img src="shots/wpml_flags.jpg" alt="[wpml_flags.jpg]" title="" /> 
+<br/>
+To make it easy to display available languages in the OneUp theme, we have created a custom menu item which will automatically show the added languages once the WPML plugin is installed, activated, and those languages have available content. To add this menu item to the theme&#39;s menu, do the following:<br/>
+<br>
+<ol style="list-style-type: decimal">
+	<li> On the menus admin page, add a link menu item to your main menu as you would normally do. We recommend adding it in the last place in the menu.<br/>
+	</li>
+	<li> In the URL field for the menu item insert &quot;#WPML&quot; 
+	</li>
+	<li> Enter anything as the Label (This won&#39;t be shown once WPML plugins are activated)<br/>
+	</li>
+	<li> Save the menu.</li>
+</ol>
+Now flags should appear in the main menu for each of the languages available in the theme (As shown in the above image).<br/>
+<br>
+<br/>
+<br>
+<h2><a name="sec24_4">24.4</a> Translation Exceptions</h2>
+<br/>
+<b>Galleries and Videos:</b>
+<br/>
+Galleries and Videos are basically image/video content and so do not need to be translated. Therefore unlike other content all galleries and videos will be visible in all languages.<br/>
+<br>
+<b>Slideshow Simple Captions</b>
+<br/>
+Simple captions for slideshows are defined inside galleries and galleries are not translated, therefore translating captions requires a little additional custom step. Say for example your website has two languages, English and Italian. You will need to make two sets of caption content inside each single caption. To differentiate which caption content is required for which language you will need to wrap each caption in a language shortcode. This shortcode looks like this:<div class="highlight"><pre>[lang code=&quot;en&quot;] CAPTION CONTENT HERE [/lang]<br/>
+</pre></div>
+As you can see the language for which this caption will be displayed, is entered in its abreviated form in the first part of the shortcode, in this case <i>en</i> for English. Therefore to enter caption for both languages, the caption field&#39;s full content would look like this below. Notice the &quot;en&quot; and &quot;it&quot; language keywords in the shortcodes.<br/>
+<br>
+<b>These type of captions are defined in Galleries&gt;Edit Gallery&gt;Edit Icon In Top-Left Corner of Gallery Thumbnail</b><div class="highlight"><pre>[lang code=&quot;en&quot;]<span class="nt">&lt;h3&gt;</span>Image Title<span class="nt">&lt;/h3&gt;</span>
+<span class="nt">&lt;p&gt;</span>In any case, for many years, I found myself working on a design for a client<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;submit&quot;</span> <span class="na">value=</span><span class="s">&quot;More&quot;</span> <span class="na">class=</span><span class="s">&quot;red&quot;</span><span class="nt">&gt;</span>[/lang]<br/>
+<br>
+[lang code=&quot;it&quot;]<span class="nt">&lt;h3&gt;</span>Immagine titolo<span class="nt">&lt;/h3&gt;</span>
+<span class="nt">&lt;p&gt;</span>In ogni caso, per molti anni, mi sono trovato a lavorare su un progetto per un cliente<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;submit&quot;</span> <span class="na">value=</span><span class="s">&quot;Di Piu&quot;</span> <span class="na">class=</span><span class="s">&quot;red&quot;</span><span class="nt">&gt;</span>[/lang]<br/>
+</pre></div>
+<div class="note">To find language codes for your language, refer to the WPML docs.</div><div class="note">To use the same caption content for all languages, simply omit the shortcode part and enter content as normal. This will then show for all languages.</div><b>Theme Options</b>
+<br/>
+Some of the theme options found in <i>Appearance&gt;Theme Options</i> require text content. For example in the <i>Footer</i> tab, the <i>copyright</i> field. To enter content here for a different language do the following:<br/>
+<br>
+<ol style="list-style-type: decimal">
+	<li>Change the dropdown at the top of the admin, select the language for which you would like to enter alternative content.<br/>
+	</li>
+	<li>Enter the new content and Save your changes. This content will now show for the language set in the drop down from setp 1.</li>
+</ol>
+<b>Widgets</b>
+<br/>
+Translation of widgets also works slightly differently in the OneUp theme. We have made a custom widget called &quot;WPML conditional&quot;. This widget acts a kind of a container for any widgets which site below/after it. The widget sets the language for which the widgets which follow it, will appear. For example, if a sidebar has 3 English widgets and you would like for only two of these widgets to show up in the Italian version of your site, you would insert one of these &quot;WPML conditional&quot; widgets as the first item in the sidebar, set its filter to english, next insert another &quot;WPML conditional&quot; widget after the 3 English widgets, set its filter to &quot;Italian&quot;, and then insert 2 new widgets after this. The 2 new widgets are similar to those from the English set, but which you want to show in the Italian version of your site, and so you would fill these widgets with italian language content.<br/>
+<br>
+To summarize, a sidebar or widget area will therefore contain all widgets for the different languages together, but using the &quot;WPML conditional&quot; custom widget, you can define which sets of widgets appear for the different languages. The sequence from the above example would be as follows:<br/>
+<br>
+<ol style="list-style-type: decimal">
+	<li>WPML Custom widget 1 (set to English)<br/>
+	</li>
+	<li>English Widget 1<br/>
+	</li>
+	<li>English Widget 2<br/>
+	</li>
+	<li>English Widget 3<br/>
+	</li>
+	<li>WPML Custom widget 2 (set to Italian)<br/>
+	</li>
+	<li>Italian Widget 1<br/>
+	</li>
+	<li>Italian Widget 2</li>
+</ol>
+To translate widgets:<br/>
+<br>
+<ol style="list-style-type: decimal">
+	<li>Go to the widgets page.<br/>
+	</li>
+	<li>Drag the &quot;WPML conditional&quot; widget into the sidebar/widget area.<br/>
+	</li>
+	<li>Place it as the first Item and set its language filter<br/>
+	</li>
+	<li>The widgets with come after (below) this new plugin will now only be shown in the version of the site corresponding to the language filter set in the widget.<br/>
+	</li>
+	<li>To create widgets for a different language add a new &quot;WPML conditional&quot; widget after the above widgets.<br/>
+	</li>
+	<li>Set its language filter to a different language than the first such widget above.<br/>
+	</li>
+	<li>Now add all of the widgets after(below) this which should appear for the language set in the filter.<br/>
+	</li>
+	<li>All widgets need to be manualy filled with translated data/info.</li>
+</ol>
+<br/>
+<h2><a name="sec24_5">24.5</a> Translating Theme Static Text/Titles</h2>
+<br/>
+For certain static pieces of text in the theme, which are not entered by the user, you will need to translate these separately. All such strings, both in the theme front end and from the theme&#39;s admin, can be found in a large list in <i>WPML&gt;String Translation</i> page. In this list you will need to search for the static string you wish to translate. When you find it, click &quot;translations&quot;, enter the string translation in the new field, check &quot;translation is complete&quot; and click Save. To find out more information about this part of the translation process, refer to the WPML help docs.<br/>
+<br>
+<br/>
+<br>
+<br/>
+<br>
+<br/>
+<h2><a name="sec24_6">24.6</a> Modifying The theme&#39;s CSS</h2>
+<br/>
+The Custom CSS field provided in the OneUp theme&#39;s theme options panel should be used for making changes to the theme&#39;s CSS styles. This can be found in <i>Appearance&gt;Theme Options&gt;General&gt;Custom CSS</i>.<br/>
+<br>
+<br/>
+<b>To overwrite an elements CSS styles:</b>
+<br/>
+<ol style="list-style-type: decimal">
+	<li>Locate the element&#39;s CSS selector using firebug or chrome&#39;s element inspector.<br/>
+	</li>
+	<li>Copy this selector and paste it into the Custom CSS Field found in the theme&#39;s custom options &quot;General&quot; tab.<br/>
+	</li>
+	<li>Add your new styles and you are done.<br/>
+	</li>
+	<li>Click Save All Changes at the bottom of the theme options page.<br/>
+		<br/>
+		Now the theme&#39;s default CSS will be overwritten by what you have entered into the Custom CSS box.</li>
+</ol>
+<br/>
+<h1><a name="sec25_0">25</a> Javascript<a class="top" href="#toc">top</a></h1>
+<h2><a name="sec25_1">25.1</a> Adding Custom Javascript</h2>
+<br/>
+Similar to the Custom CSS filed in the theme options, there is also a Custom Javascript field to be used when you wish to insert additional javascript into the theme. The only difference with this field is that the javascript code placed here will not overwrite any existing javascript code. An example of custom javascript code which would be used in this field is Google Analytics. Simply paste in the javascript code provided by Google in this box, save and you&#39;re done.<br/>
+<h1><a name="sec26_0">26</a> Rebranding the Custom Admin Panel<a class="top" href="#toc">top</a></h1>As many of our buyers are buying our themes in order to sell to their clients, we have decided to aid this process by designing our theme&#39;s custom admin panel to be easily rebranded. Our theme&#39;s custom options panel contains a secret option which allows our buyers to rebrand the admin panel with their logo and and afterwards these options disappear. This allows our buyers who provide their clients with themes which strengthen their brand identity with their clients and which don&#39;t force cross links to the pixelentity brand.<br/>
+<br>
+<img src="shots/branding.jpg" alt="[branding.jpg]" title="" data-spots="1:100:290,2:206:429,3:520:295,4:520:464" />
+<br/>
+<b>To rebrand the admin panel do the following:</b>
+<br/>
+<ol style="list-style-type: decimal">
+	<li>Navigate to the theme options page. <i>Appearance &gt; Theme Options</i> <div class="hotspot-link">1</div>
+	</li>
+	<li>In the browser address bar, add the following query string to the end of the existing url and hit enter.<div class="highlight"><pre><span class="o">&amp;</span><span class="nt">branding</span><span class="o">=</span><span class="nt">1</span>
+		</pre></div>
+	</li>
+	<li>A new tab will appear in the Theme Options page named <i>Branding</i> <div class="hotspot-link">2</div> The contents of this tab is shown in the above screenshot.<br/>
+	</li>
+	<li>Here <div class="hotspot-link">3</div> you can set an image to be used as the logo/ branding for the custom admin panel. You can also set a custom url which will be attached to the logo image.<br/>
+	</li>
+	<li>To see the changes, click save <div class="hotspot-link">4</div> remove the query string from the url and reload the page.<br/>
+	</li>
+	<li>The branding tab should now be hidden again and the new logo visible.</li>
+</ol>
+See a video of this process--&gt; <a href="http://www.youtube.com/watch?v=uGv0xr87ns4" rel="nofollow">REBRANDING THE ADMIN PANEL VIDEO</a>
+<h1><a name="sec27_0">27</a> Updates<a class="top" href="#toc">top</a></h1>In this section we will list all updates and details of changes made in each update. If you are unsure if the version you are using includes certain updates, refer to this section.<br/>
+<br>
+<b>THERE HAVE BEEN NO UPDATED TO THIS THEME AS YET</b>
+</div>
+		
+		
+		<!--footer section-->
+		<div class="footer">
+			<div class="outro">
+				
+				<!--useful links section-->
+				<div class="links">
+					<span>USEFUL LINKS</span>
+					<ul>
+						<li><a href="http://support.pixelentity.com">Support Forums</a> The fastest way to get help</li>
+						<li><a href="http://pixelentity.com">Pixelentity.com </a> Free PSD Design Resources</li>
+						<li><a href="http://themeforest.net/user/pixelentity/follow">Follow Pixelentity</a> Add our items to your homepage.</li>
+						<li><a href="http://themeforest.net/user/pixelentity/follow">Pixelentity on Twitter</a> Get informed of new releases & updates</li>	
+					</ul>
+				</div>
+				
+				<!--getting support section-->
+				<p class="tagline"><span>STILL NEED HELP? - GETTING SUPPORT</span>If having read through all of the information in this page you are still experiencing problems, feel free to contact us. We provide free support* to our buyers via our support forums <i>(See link on right)</i>. Head on over there, read the FAQs, register <i>(using your purchase code)</i> and post your question in the appropriate forum.<br/><br/> *<b>Please note that support requests will not be answered if they relate to information available on this page.</b><br/><br/>Best regards, The Pixelentity Team</p>
+				
+			</div>
+			
+			<!--copyright details-->
+			<p class="copyright">Copyright &copy 2011+ Pixelentity. All rights reserved.</p>
+			
+		</div>
+		<!--end footer section-->
+		
+    </body>
+</html>
